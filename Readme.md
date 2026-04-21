@@ -1,4 +1,4 @@
-# VCCEdge Automation Framework
+# Playwright Automation Framework
 
 A robust, scalable Java-based automation framework designed for end-to-end testing of Web, API, and Database layers. This project leverages **Playwright** for high-performance web automation, **RestAssured** for API testing, and **TestNG** for test orchestration.
 
@@ -23,7 +23,7 @@ A robust, scalable Java-based automation framework designed for end-to-end testi
    ```
 2. Navigate to the project directory:
    ```bash
-   cd vccedge-automation
+   cd playwright-automation-framework
    ```
 3. Install dependencies:
    ```bash
@@ -63,7 +63,7 @@ mvn test -DTestSuite="API" -DsuitexmlfilePath="testng_api.xml"
 ## 🛠 Playwright Codegen
 To record new test cases using the Playwright inspector:
 ```bash
-mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://devapp-v2.vccedge.com/market-intelligence/key-developments"
+mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://example.com"
 ```
 
 ## 🌐 BrowserStack Integration
