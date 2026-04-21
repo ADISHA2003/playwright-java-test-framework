@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+{"query":"\n      query GetBookmarkCompanies($userId: Int!) {\n        getBookmarkCompanies(userId: $userId) {\n            companyId\n            name\n            logo\n        }\n      }\n    ","variables":{"userId":"1"}}
+}

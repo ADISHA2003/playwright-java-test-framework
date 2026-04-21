@@ -1,0 +1,7 @@
+ <suite name="OfferingTimeline">
+    <test name="OfferingTimeline">
+        <classes>
+            <class name="APITestSuite.Deals.OfferingTimeline_Test"/>
+        </classes>
+    </test>
+</suite>

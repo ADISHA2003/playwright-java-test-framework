@@ -1,0 +1,7 @@
+ <suite name=GlobalSearch>
+    <test name=GlobalSearch>
+        <classes>
+            <class name="APITestSuite.GlobalSearch.GlobalSearch_Test.java">
+        </classes>
+    </test>
+</suite>

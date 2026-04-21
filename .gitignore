@@ -1,0 +1,65 @@
+target/
+test-output/
+*.iml
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea
+*.iws
+*.iml
+*.ipr
+allure-report
+allure-results
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+log
+local.log
+logs
+trace.zip
+
+resources/FailedTestsScreenshot
+src/test/resources/FailedTestsScreenshot
+videos
+logs
+log
+local.log
+/src/test/resources/Configs/ExecutionConfig.properties
+browserstack.yml
+.env
+*.secret
+*credentials*
+Zephyr.properties

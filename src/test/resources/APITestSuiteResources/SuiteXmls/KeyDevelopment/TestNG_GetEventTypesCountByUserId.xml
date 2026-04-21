@@ -1,0 +1,7 @@
+ <suite name="GetEventTypesCountByUserId" parallel = "methods" thread-count="3">
+    <test name="GetEventTypesCountByUserId">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.GetEventTypesCountByUserId_Test"/>
+        </classes>
+    </test>
+</suite>

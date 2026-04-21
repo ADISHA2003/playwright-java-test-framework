@@ -1,0 +1,33 @@
+Component,Section,Bug
+Key Developments,,Readin list heading is not bold
+Key Developments,,no key dev page is not as per design
+Key Developments,,sources showing +6 more even in case no source is available
+Key Developments,,subsidiary companies pills are not left aligned
+Key Developments,,subsidiary companies-> after a certain limit +# more should be shown
+Key Developments,,My preferences -> search icon is not as per figma
+Key Developments,,My preferences -> key development +# more and show less font and color is not as per figma
+Key Developments,,My preferences card spacing between headings and top bar and between cards is not as per figma also card layout is not as per figma
+Key Developments,,view reading list card is not as per figma
+Key Developments,,subsidary filter is not working properly
+Key Developments,,All subheading on right is are kept bold
+Key Developments,,resett Buttons text color is not as per figma
+Key Developments,,date and export buttons layouts are not as per figma
+Key Developments,,sources with count 0 is shown and on clicking showmore source with count 0 is showing
+Key Developments,,Access your saved article bg color is not as per figma
+Key Developments,My preferences - key dev,searcing order relevance is missing on keydev
+Key Developments,My Preference - sources,user is able to apply empty sources using search 
+Key Developments,Search,Search is not working
+Key Developments,Search,search field design and placeholder is not as per figma
+Reports and docs,top metrices,card size is too big
+Reports and docs,,sorting order is missing
+Reports and docs,,on clicking search user is not able to enter any keyuser has to click inside search input field
+Reports and docs,,select all is not working on pagination
+Reports and docs,,filter button and icon is not as per design
+Reports and docs,,select all XXX reports option is missing
+Reports and docs,,column filters are not as per requirement
+Reports and docs,,search icon is not as per design
+Shareholding and returns,dropdown,count is not matching with the values in row
+Shareholding and returns,,cross icon is visible along each of the
+Shareholding and returns,,pagination count design is broken
+Shareholding and returns,,filter not working
+Shareholding and returns,,column name is incorrect it should be instrument

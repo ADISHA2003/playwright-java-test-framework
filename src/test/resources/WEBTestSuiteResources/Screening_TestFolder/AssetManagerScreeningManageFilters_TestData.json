@@ -1,0 +1,239 @@
+[
+  {
+    "groupName": "Profile",
+    "filters": [
+      {
+        "filterName": "Investor Type",
+        "isDefault": true,
+        "filterType": "multi_select_values",
+        "api": "asset-manager/multi_select_values",
+        "apiReference": "investorType"
+      },
+      {
+        "filterName": "Fund Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "asset-manager/multi_select_values",
+		"apiReference": "fundType"
+      },
+      {
+        "filterName": "Investor Location",
+        "isDefault": false,
+		"filterType": "headquarter",
+	    "api": "asset-manager/headquarter",
+		"apiReference": "contact"
+      },
+      {
+        "filterName": "Asset Under Management (AUM)",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "assetUnderManagement"
+      },
+      {
+        "filterName": "Registration type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "asset-manager/multi_select_values",
+		"apiReference": "registrationType"
+		
+      },
+      {
+        "filterName": "Investor Name",
+        "isDefault": false,
+		"filterType": "top",
+	    "api": "asset-manager/top",
+	    "apiReference": "investorName"
+		
+      },
+      {
+        "filterName": "Investor Special Flag",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+	    "api": "asset-manager/multi_select_values",
+		"apiReference": "investorSpecialFlag"
+		
+		
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "asset-manager/top",
+		"apiReference": "keywords"
+      }
+    ]
+  },
+  {
+    "groupName": "Preferences",
+    "filters": [
+      {
+        "filterName": "Focus",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+        "api": "asset-manager/multi_select_values",
+	    "apiReference": "focus"
+      },
+      {
+        "filterName": "Area of Interest",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "asset-manager/top",
+		"apiReference": "areaOfInterest"
+      },
+      {
+        "filterName": "Geographical Preference",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "asset-manager/multi_select_values",
+		"apiReference": "geographicalPreference"
+
+		
+      },
+      {
+        "filterName": "Investment Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "asset-manager/multi_select_values",
+		"apiReference": "investmentType"
+
+      }
+    ]
+  },
+  {
+    "groupName": "Portfolio Detail",
+    "filters": [
+      {
+        "filterName": "Number of Current Investments",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "numberOfUniqueCurrentInvestments"
+
+		
+      },
+      {
+        "filterName": "Number of Prior Investments",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "numberOfUniquPriorInvestments"
+		
+      }
+    ],
+    "subGroups": [
+      {
+        "subGroupName": "Company Details",
+        "filters": [
+          {
+            "filterName": "Investee Company Name",
+            "isDefault": true,
+			"filterType": "top",
+			"api": "asset-manager/top",
+			"apiReference": "investmentInfo.companyName"
+			
+          },
+          {
+            "filterName": "Company Founded Year",
+            "isDefault": false,
+			"filterType": "graph_year",
+			"api": "asset-manager/range",
+			"apiReference": "investmentInfo.foundedYear"
+			
+          },
+          {
+            "filterName": "Company Location",
+            "isDefault": false,
+			"filterType": "headquarter",
+			"api": "asset-manager/headquarter",
+			"apiReference": "investmentInfo.contact"
+			
+          },
+          {
+            "filterName": "Company Sector",
+            "isDefault": true,
+			"filterType": "BusinessModel",
+			"api": "asset-manager/bm_sectors",
+			"apiReference": "investmentInfo.taxonomy"
+			
+          },
+          {
+            "filterName": "Company Special Flag",
+            "isDefault": false,
+			"filterType": "top",
+			"api": "asset-manager/top",
+			"apiReference": "investmentInfo.flags"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Deal Details",
+    "filters": [
+      {
+        "filterName": "No Of Deals Participated",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "numberOfDeals"
+
+      },
+      {
+        "filterName": "Deal Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		 "api": "asset-manager/range",
+		 "apiReference": "dealDate"
+      },
+      {
+        "filterName": "Deal Amount",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "Round of Investment",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "asset-manager/multi_select_values",
+		"apiReference": "dealInfo.roundOfInvestment"
+
+		
+      },
+      {
+        "filterName": "Total Investment",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "totalInvestment"
+      },
+      {
+        "filterName": "No of Exited Deals",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "numberOfExits"
+		
+      },
+      {
+        "filterName": "Deal Exit Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "asset-manager/range",
+		"apiReference": "exitDate"
+		
+      },
+      {
+        "filterName": "Deal Exit Amount",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "asset-manager/range",
+		"apiReference": "exitValue"
+
+		
+      }
+    ]
+  }
+]

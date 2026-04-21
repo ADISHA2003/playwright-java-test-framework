@@ -1,0 +1,137 @@
+<suite name="API SMOKE SUITE" parallel="tests" thread-count="10">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name = "Dashboard_Financial_Documents_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_Financial_Documents_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard_Funding_Trend_Graph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_Funding_Trend_Graph_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard_Latest_Deals_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_Latest_Deals_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard_PE_Graph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_PE_Graph_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard_Top_Companies_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_Top_Companies_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardCAGRGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardCAGRGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardChart_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardChart_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardCoverage_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardCoverage_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardDealSplitVCGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardDealSplitVCGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardDebtTrend_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardDebtTrend_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardFilterCriteria_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardFilterCriteria_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardFundExitGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardFundExitGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardFundLaunchedGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardFundLaunchedGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardFundRaiseGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardFundRaiseGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardKeyDevelopmentFeed_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardKeyDevelopmentFeed_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardLeagueInfoGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardLeagueInfoGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardMeanMedianGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardMeanMedianGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardMnaGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardMnaGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardPermission_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardPermission_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardResetCharts_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardResetCharts_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardResetServices_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardResetServices_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardServices_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardServices_Test"/>
+        </classes>
+    </test>
+    <test name = "DashboardTopStatesGraph_Test endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.DashboardTopStatesGraph_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard Onboarding endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_onBoarding_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard User Onboarded endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_User_onBoarded_Test"/>
+        </classes>
+    </test>
+    <test name = "Dashboard User Persona endpoint Status 200 Check">
+        <classes>
+            <class name="APITestSuite.Dashboard_User_Persona_Test"/>
+        </classes>
+    </test>
+</suite>

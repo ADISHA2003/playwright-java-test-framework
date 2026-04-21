@@ -1,0 +1,47 @@
+<suite name="Company Screener filter suite" parallel = "methods" thread-count="3">
+    <test name="BM Tree">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.BM_TreeScreening_Test"/>
+        </classes>
+    </test>
+    <test name="BM sector Screening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.BmSectorScreening_Test"/>
+        </classes>
+    </test>
+    <test name="HeadquarterCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.HeadquarterCompanyScreening_Test"/>
+        </classes>
+    </test>
+    <test name="LocationCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.LocationScreening_Test"/>
+        </classes>
+    </test>
+    <test name="ScreenerResults">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.ScreenerResults_Test"/>
+        </classes>
+    </test>
+    <test name="ScreeningMultifield">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.ScreeningMultifield_Test"/>
+        </classes>
+    </test>
+    <test name="ScreeningRange">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.ScreeningRange_Test"/>
+        </classes>
+    </test>
+    <test name="TopAcquirersCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.TopAcquirersCompanyScreening_Test"/>
+        </classes>
+    </test>
+    <test name="TopInvestorsCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.TopScreening_Test"/>
+        </classes>
+    </test>
+</suite>

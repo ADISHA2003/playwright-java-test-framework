@@ -1,0 +1,20 @@
+{
+  "testCase200":
+  {
+    "userId": "nishanshu.tiwari@hindustantimes.com",
+    "page": 0,
+    "size": 5,
+    "searchInput": "",
+    "filterData": {
+      "companies": [
+        {
+          "key": "666e987e499bf94d6f71833f"
+        }
+      ]
+    },
+    "dateRange": [],
+    "bookmarked": false,
+    "filterSaved": false,
+    "keyDevData": null
+  }
+}

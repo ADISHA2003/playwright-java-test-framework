@@ -1,0 +1,204 @@
+[
+  {
+    "groupName": "Profile",
+    "filters": [
+      {
+        "filterName": "Family Office Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "familyOfficeStatus"
+      },
+      {
+        "filterName": "Family Office Type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "familyOfficeType"
+      },
+      {
+        "filterName": "Year Founded",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "yearFounded"
+      },
+      {
+        "filterName": "Incorporation Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "incorporationDate"
+      },
+      {
+        "filterName": "HQ Location",
+        "isDefault": false,
+		"filterType": "headquarter",
+		"api": "family-office/headquarter",
+		"apiReference": "contact"
+      },
+      {
+        "filterName": "Asset Under Management (AUM)",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "assetUnderManagement"
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": false,
+		"filterType": "keyword_search",
+		"api": "family-office/top",
+		"apiReference": "keywords"
+      },
+      {
+        "filterName": "Family Office Name",
+        "isDefault": false,
+		"filterType": "top",
+		"api": "family-office/top",
+		"apiReference": "investorName"
+      }
+    ]
+  },
+  {
+    "groupName": "Preferences",
+    "filters": [
+      {
+        "filterName": "Focus",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "focus"
+      },
+      {
+        "filterName": "Investment Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "investmentType"
+      }
+    ]
+  },
+  {
+    "groupName": "Portfolio Detail",
+    "filters": [
+      {
+        "filterName": "Number of Current Investments",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "numberOfUniqueCurrentInvestments"
+      },
+      {
+        "filterName": "Number of Exits",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "numberOfUniquPriorInvestments"
+      },
+      {
+        "filterName": "Investee Company Name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "family-office/top",
+		"apiReference": "investmentInfo.companyName"
+      },
+      {
+        "filterName": "Company Founded Year",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "investmentInfo.foundedYear"
+      },
+      {
+        "filterName": "Company Location",
+        "isDefault": false,
+		"filterType": "headquarter",
+		"api": "family-office/headquarter",
+		"apiReference": "investmentInfo.contact"
+      },
+      {
+        "filterName": "Company Sector",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "family-office/bm_sectors",
+		"apiReference": "investmentInfo.taxonomy"
+      },
+      {
+        "filterName": "Special Flags",
+        "isDefault": false,
+		"filterType": "top",
+		"api": "family-office/top",
+		"apiReference": "investmentInfo.flags"
+      }
+    ]
+  },
+  {
+    "groupName": "Deal Details",
+    "filters": [
+      {
+        "filterName": "No Of Deals Participated",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "numberOfDeals"
+      },
+      {
+        "filterName": "Deal Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "dealSubtype"
+      },
+      {
+        "filterName": "Deal Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "dealDate"
+      },
+      {
+        "filterName": "Deal Amount",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "Round of Investment",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "family-office/multi_select_values",
+		"apiReference": "dealInfo.roundOfInvestment"
+      },
+      {
+        "filterName": "Total Investment",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "totalInvestment"
+      },
+      {
+        "filterName": "No of Exited Deals",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "family-office/range",
+		"apiReference": "numberOfExits"
+      },
+      {
+        "filterName": "Deal Exit Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "exitDate"
+      },
+      {
+        "filterName": "Deal Exit Amount",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "family-office/range",
+		"apiReference": "exitValue"
+      }
+    ]
+  }
+]

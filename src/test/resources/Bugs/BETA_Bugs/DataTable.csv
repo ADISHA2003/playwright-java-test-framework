@@ -1,0 +1,68 @@
+Component,Bug
+Data Table,Not getting results on the data table. Check the video on the channel. 
+Data Table,Instead of 1k +exact result count to be shown
+Data Table,Something went wrong messages showing up on data table. That too 2 warnings
+Data Table,Companies with founded year in between 2023 and 2024 are more than 1000 on new platform but only 368 on old platform
+Data Table,Fields having multiple values and shown as +2 .. sometimesinstead of showing nameonly +1 is shown screenshot 
+Data Table-Company Tab,Exception error on selecting Company Type as filter in popup
+Data Table,All text or numeric type filters like CompanynameEV/Revenue filter are not working with includeblank true
+Data table-Deals tab,Not able to apply Filter for Change in Control default selection is coming Yes and even after selecting required operator Apply button is disabled.
+Data table,Remove functionality is not working 
+Data table,Error message or searched keyword in Add to My List popupremains as per previous history when tried to add companies in the list.
+Data table,Duplicate error message for list already exists is coming as Duplicate Tile Error: A list with the same title already exists . If we are showing in the popup itself then no requirement of it to show on the page.
+Data table,Bookmark API is giving 500 error
+Data table,companySourcing collection is not having all the companies for eg: companyID 786 is not present 
+Data table,Name of Investor with ID 162798 is not matching with livemaybe this is syncing issueneed to check
+Data table,Data table earlier bugs - https://htmedia.atlassian.net/browse/VCI-2007
+Data table,Table content is slightly going upwards crossing fixed column headersscreenshot attached
+Data Table,As per story7 pills are to be shownafter which truncated text to be visible as per design
+Data table,Select All option is not available when filter is applied on 1st column
+Data table,Also if there is any selection done and after that any filter is applied due to which table is reloadedneed to clear the selection.
+Data Table,Against each rowunable to select checkbox as row hover options enable on hoveringunable to check Bulk Bookmark functionality
+Data Table,Bulk bookmark is not workingalso to be implemented for other tabs
+Data Table-Company Tab,Field limit to be implemented in Description column
+Data table-Deals tab,Change in Control- filter poupselect value placeholder
+Data table-Deals tab,Change in controloperator to be made mandatory before applying and checkbox is coming besides column heading
+Data table-Deals tab,Change in Control when filter is appliedvalue is going as null
+Data Table,Scale of currency is not available in currency conversion tooltip for INR base currency it should be INR Crorecheck for Annual Revenue tooltip when any other currency other than INR is selected
+Data table,Apply a filter companyname conatains zomato now search company tata in search for a company
+Data Table-Company Tab,Latest PE Valuation mapping to be corrected
+Data table-Deals tab,Min and Max Investment Range value is not correct - Deal tab
+Data table - Investor,Fund status (list) API for filter
+Data Table-Company Tab,Company type list API to be modified as per screener filter
+Data Table - Deals Tab,In zomato deal of transaction id - 51044 EV/PAT EV/EBITDA EV//REVENUE values are not matching with existing vccedge.
+Data Table - Deals Tab,In a zomato deal of transaction id - 51044 deal value in INR million is not matching with existing vccedge.
+Data Table-Company tab,Latest Market cap value is not matching as compared to existing platform
+Data Table-Company tab,Valuation class available in API not coming in UI
+Data Table - Deals Tab,In a zomato deal of transaction id - 66154 deal description is missing and also check for its DEal Type
+Data Table-Company tab,Net Profit Margin EBITDA Margin REvenue CAGR not available checked for Zomato
+Data Table - Deals Tab,In Interise trust deals of transaction id -72671 and 57530 seller is missing when searched through company tabavailable when directly searching in deals tab
+Data Table - Deals Tab,In Interise trust deals of transaction id -72671 and 57530 change in control is wrong for both
+Data Table - Investors Tab,For zomato ltd. investors count is incorrect.
+Data Table-Company tab,Founded year includeBlanks feature not working because of 0
+Data table - Company Tab,Latest market cap to be in INR 
+Data Table- Company Tab,Complete BM to be shown in left drawer starting from Category till Level 4 currently showing last node
+Data table,Truncate drawer for Trade name in Company Tab and Co-Investor in Investor tab yet to be implemented
+Data Table- Investor tab,Current Investments column data is not correct - https://app.vccedge.com/portfolio/asset_manager/27496
+Data Table - Investors Tab,Fund size is not coming- check for 021 Capital Fund
+Data table-Investor tab,Co-Investor data is not correct- check for 021 Capital Fund
+Data Table - Investors Tab,Launch Date and Fund Status are not coming - check for 021 Capital Fund
+Data Table - Investors Tab,Number of Deals not matching with Live
+Data table,search any company update anything say add custom column all results are shown 
+Data Table,Include blank false is not working for professional table
+Data Table,Deal feature filter not working
+Data Table,Content of Truncation drawer to be updated with Column name
+Data Table,Filter operator to be made mandatory before applying filter
+Data Table,Date Operator to be implemented across tabs
+Data table,APIs are  slow for data table taking more than 10 seconds
+Data Table-Deals,Change in Control filter is not working
+Data Table,Slowness observed in actions on UI like type anything in search box it takes time to reflect on textbox
+Data table,Field name to be updated while sending it to data table like PE Valuation Company stage
+Data table,When any filter is made Inactive still it gets reflected in datatable filters need a request in case of making it off. 
+Data table,Bookmark and Add to my List to be checked after authentication
+Data table - Company Tab,Current Investors to be shown under Investors name column  currently showing prior also
+Data table - Company Tab,Net profit currency coming in USD
+Data Table - Investors Tab,Filters not working for Investment Size Min and Max
+Data Table,Geographical preference filter API to be created- missed telling Gagan
+Data Table,Two scrolls in filter list and overlapping data in filter popup
+Data Table,Bulk Bookmark functionality is not working bookmark option is not selected for required companies

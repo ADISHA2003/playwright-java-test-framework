@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+{"manageCharts":[{"name":"Funds","subCharts":[{"name":"Funds Raised","isSelected":true},{"name":"Funds Exit","isSelected":false},{"name":"Funds Launched","isSelected":false}]},{"name":"Investors","subCharts":[{"name":"League Tables","isSelected":false},{"name":"Active Investors M & A","isSelected":true}]},{"name":"Deals","subCharts":[{"name":"Deal Type Split","isSelected":true},{"name":"Deal Type Split-VC","isSelected":false},{"name":"Debt Trend","isSelected":false},{"name":"Deals by Indian States","isSelected":true},{"name":"Mean and Median Value","isSelected":false}]}]}
+}

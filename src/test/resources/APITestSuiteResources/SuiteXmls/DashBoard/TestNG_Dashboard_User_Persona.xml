@@ -1,0 +1,7 @@
+ <suite name=Dashboard_User_Persona>
+    <test name=Dashboard_User_Persona>
+        <classes>
+            <class name="APITestSuite.Dashboard_User_Persona_Test"/>
+        </classes>
+    </test>
+</suite>

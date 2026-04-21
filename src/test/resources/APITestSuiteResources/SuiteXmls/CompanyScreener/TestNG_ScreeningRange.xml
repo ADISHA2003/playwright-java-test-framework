@@ -1,0 +1,7 @@
+ <suite name="ScreeningRange">
+    <test name="ScreeningRange">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.ScreeningRange_Test"/>
+        </classes>
+    </test>
+</suite>

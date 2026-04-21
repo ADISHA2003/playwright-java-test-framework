@@ -1,0 +1,7 @@
+ <suite name=DashboardGraphQL>
+    <test name=DashboardGraphQL>
+        <classes>
+            <class name="APITestSuite.DashboardGraphQL_Test"/>
+        </classes>
+    </test>
+</suite>

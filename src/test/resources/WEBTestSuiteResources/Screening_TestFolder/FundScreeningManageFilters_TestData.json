@@ -1,0 +1,277 @@
+[
+  {
+    "groupName": "Profile",
+    "filters": [
+      {
+        "filterName": "Fund Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "fundInvestorType"
+      },
+      {
+        "filterName": "Investor Type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "assetManagerInvestorType"
+      },
+      {
+        "filterName": "fund Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "fundStatus"
+		
+      },
+      {
+        "filterName": "Launched Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "funds/range",
+		"apiReference": "launchedDate"
+      },
+      {
+        "filterName": "Asset Manager",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "funds/top",
+		"apiReference": "assetManager"
+		
+      },
+      {
+        "filterName": "HQ Location",
+        "isDefault": false,
+		"filterType": "headquarter",
+		"api": "funds/headquarter",
+		"apiReference": "contact"
+
+      },
+      {
+        "filterName": "Fund Size",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "fundSize"
+
+      },
+      {
+        "filterName": "Amount Raised",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "amountRaised"
+      },
+      {
+        "filterName": "Fund Raising Stage Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "funds/range",
+		"apiReference": "recentFundRaisingInfo.fundRaisingStages.stageDate"
+      },
+      {
+        "filterName": "Registration Type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "registrationType"
+
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": false,
+		"filterType": "keyword_search",
+		"api": "funds/top",
+		"apiReference": "keywords"
+
+      },
+      {
+        "filterName": "Fund Name",
+        "isDefault": false,
+		"filterType": "top",
+		"api": "funds/top",
+		"apiReference": "investorName"
+
+      }
+    ]
+  },
+  {
+    "groupName": "Preferences",
+    "filters": [
+      {
+        "filterName": "Focus",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "focus"
+      },
+      {
+        "filterName": "Area of Interest",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "funds/top",
+		"apiReference": "areaOfInterest"
+		
+      },
+      {
+        "filterName": "Geographical Preference",
+        "isDefault": false,
+		"filterType": "top",
+		"api": "funds/top",
+		"apiReference": "geographicalPreference"
+		
+      },
+      {
+        "filterName": "Investment Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "investmentType"
+      },
+      { 
+        "filterName": "Investment Range",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "investmentRange"
+      }
+    ]
+  },
+  {
+    "groupName": "Portfolio Details",
+    "filters": [
+      {
+        "filterName": "Number of Investments",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "numberOfInvestments"
+      },
+      {
+        "filterName": "Number of Prior Investments",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "numberOfExits"
+		
+      }
+    ],
+    "subGroups": [
+      {
+        "subGroupName": "Company Details",
+        "filters": [
+          {
+            "filterName": "Investee Company Name",
+            "isDefault": true,
+			"filterType": "top",
+			"api": "funds/top",
+			"apiReference": "companyName"
+			
+          },
+          {
+            "filterName": "Company Founded Year",
+            "isDefault": false,
+			"filterType": "graph_year",
+			"api": "funds/range",
+			"apiReference": "foundedYear"
+			
+          },
+          {
+            "filterName": "Company Location",
+            "isDefault": false,
+			"filterType": "headquarter",
+			"api": "funds/headquarter",
+			"apiReference": "investmentInfo.contact"
+			
+          },
+          {
+            "filterName": "Company Sector",
+            "isDefault": true,
+			"filterType": "BusinessModel",
+			"api": "funds/bm_sectors",
+			"apiReference": "investmentInfo.taxonomy"
+          },
+          {
+            "filterName": "Special Flags",
+            "isDefault": false,
+			"filterType": "top",
+			"api": "funds/top",
+			"apiReference": "investmentInfo.flags"
+			
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Deal Details",
+    "filters": [
+      {
+        "filterName": "No Of Deals Participated",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "numberOfDeals"
+      },
+      {
+        "filterName": "Deal Type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "dealSubtype"
+		
+		
+      },
+      {
+        "filterName": "Deal Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		 "api": "funds/range",
+		 "apiReference": "dealDate"
+      },
+      {
+        "filterName": "Deal Amount",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "dealAmount"
+      },
+      {
+        "filterName": "Round of Investment",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "funds/multi_select_values",
+		"apiReference": "dealInfo.roundOfInvestment"
+      },
+      {
+        "filterName": "Total Investment",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "totalInvestment"
+      },
+      {
+        "filterName": "No of Exited Deals",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "numberOfExits"
+      },
+      {
+        "filterName": "Deal Exit Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "funds/range",
+		"apiReference": "exitInfo.exitDate"
+      },
+      {
+        "filterName": "Deal Exit Amount",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "funds/range",
+		"apiReference": "exitValue"
+
+      }
+    ]
+  }
+]

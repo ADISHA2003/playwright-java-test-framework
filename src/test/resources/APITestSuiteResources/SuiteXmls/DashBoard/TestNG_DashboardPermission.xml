@@ -1,0 +1,7 @@
+ <suite name=DashboardPermission>
+    <test name=DashboardPermission>
+        <classes>
+            <class name="APITestSuite.DashboardPermission_Test"/>
+        </classes>
+    </test>
+</suite>

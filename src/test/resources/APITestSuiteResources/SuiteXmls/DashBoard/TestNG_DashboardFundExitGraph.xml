@@ -1,0 +1,7 @@
+ <suite name=DashboardFundExitGraph>
+    <test name=DashboardFundExitGraph>
+        <classes>
+            <class name="APITestSuite.DashboardFundExitGraph_Test"/>
+        </classes>
+    </test>
+</suite>

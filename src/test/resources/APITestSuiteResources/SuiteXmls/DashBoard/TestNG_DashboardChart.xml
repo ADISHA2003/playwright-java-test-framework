@@ -1,0 +1,7 @@
+ <suite name=DashboardChart>
+    <test name=DashboardChart>
+        <classes>
+            <class name="APITestSuite.DashboardChart_Test"/>
+        </classes>
+    </test>
+</suite>

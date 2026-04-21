@@ -1,0 +1,11 @@
+{
+  "testCase200":
+  {
+    "transactionId": "671a53ced255761fc7e31058",
+    "linkedDealType": "INVESTMENT_TO_EXIT",
+    "pageNumber": 0,
+    "pageSize": 50,
+    "currency": "INRC",
+    "overview": true
+  }
+}

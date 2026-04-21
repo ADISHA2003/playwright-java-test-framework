@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+  {"query":"\n            query GetListsByUserId($userId: String!) {\n              getListsByUserId(userId: $userId) {\n                title\n                description\n                tags\n                listId\n              }\n            }\n          ","variables":{"userId":"anupam.singh@hindustantimes.com"}}
+}

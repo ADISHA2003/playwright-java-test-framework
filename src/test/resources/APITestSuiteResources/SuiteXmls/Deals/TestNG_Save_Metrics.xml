@@ -1,0 +1,7 @@
+ <suite name="Save_Metrics">
+    <test name="Save_Metrics">
+        <classes>
+            <class name="APITestSuite.Deals.Save_Metrics_Test"/>
+        </classes>
+    </test>
+</suite>

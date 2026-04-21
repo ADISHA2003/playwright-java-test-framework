@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+
+    <test name="Global Search Component tests">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes >
+            <class name="WebTestSuite.FeatureTests.GlobalSearch_Test"/>
+        </classes>
+    </test> <!-- Test -->
+
+
+    <test name="Key Development Component tests" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes >
+            <class name="WebTestSuite.FeatureTests.KeyDevelopments_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login Component tests" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes >
+            <class name="WebTestSuite.FeatureTests.Login_Test"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+</suite> <!-- Suite -->

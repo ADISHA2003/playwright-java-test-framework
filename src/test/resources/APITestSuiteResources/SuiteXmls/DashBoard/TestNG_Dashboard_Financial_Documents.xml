@@ -1,0 +1,7 @@
+ <suite name="Dashboard_Financial_Documents">
+    <test name="Dashboard_Financial_Documents">
+        <classes>
+            <class name="APITestSuite.Dashboard_Financial_Documents_Test"/>
+        </classes>
+    </test>
+</suite>

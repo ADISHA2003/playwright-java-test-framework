@@ -1,0 +1,11 @@
+{
+	"Profile" :["Fund Type","Investor Location","Asset Under Management","SEBI Registered","Asset Manager Name"],
+
+    "Portfolio Detail": ["Number of Investments","Number of Exits","Company Name","Company Founded Year","Company Location","Company Sector"],
+			
+	"Deal Details": ["No Of Deals Participated","Deal Date","Deal Amount","Round of Investment","Total Investment","Co-investors"],		
+			
+    "Preferences":["Focus","Area of Interest","Geographical Preference","Investment Type"]
+
+
+}

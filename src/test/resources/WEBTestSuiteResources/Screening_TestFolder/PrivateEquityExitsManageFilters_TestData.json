@@ -1,0 +1,154 @@
+[
+  {
+    "groupName": "Deal Information",
+    "filters": [
+      {
+        "filterName": "Deal Subtype",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "pe-exits/multi_select_values",
+		"apiReference": "dealSubtype"
+      },
+      {
+        "filterName": "Deal Feature",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "pe-exits/multi_select_values",
+		"apiReference": "dealFeatures"
+      },
+      {
+        "filterName": "Deal Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "pe-exits/multi_select_values",
+		"apiReference": "dealStatus"
+      },
+      {
+        "filterName": "Transaction Announced Date",
+        "isDefault": false,
+		"filterType": "graph_year",
+		"api": "pe-exits/range",
+		"apiReference": "announcementDate"
+      },
+      {
+        "filterName": "Transaction Closing Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "pe-exits/range",
+		"apiReference": "closingDate"
+      },
+      {
+        "filterName": "Deal value",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "pe-exits/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "Stake Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "pe-exits/multi_select_values",
+		"apiReference": "stakeType"
+      },
+      {
+        "filterName": "% Sought",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "pe-exits/range",
+		"apiReference": "percentageSought"
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "pe-exits/top-keyword",
+		"apiReference": "keywords"
+      }
+    ]
+  },
+  {
+    "groupName": "Buyer",
+    "filters": [
+      {
+        "filterName": "Buyer name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "pe-exits/top",
+		"apiReference": "Buyer"
+      }
+    ]
+  },
+  {
+    "groupName": "Seller",
+    "filters": [
+      {
+        "filterName": "Seller name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "pe-exits/top",
+		"apiReference": "Seller"
+      }
+    ]
+  },
+  {
+    "groupName": "Facilitators",
+    "filters": [
+      {
+        "filterName": "Investment Banks",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "pe-exits/top",
+		"apiReference": "investmentBanks.name"
+      },
+      {
+        "filterName": "Law Firms",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "pe-exits/top",
+		"apiReference": "legalAdvisors.name"
+      }
+    ]
+  },
+  {
+    "groupName": "Target company",
+    "filters": [
+      {
+        "filterName": "Company name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "pe-exits/top",
+		"apiReference": "targetCompanyInfo.companyName"
+      },
+      {
+        "filterName": "Company type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "pe-exits/multi_select_values",
+		"apiReference": "targetCompanyInfo.companyType"
+
+      },
+      {
+        "filterName": "Founded Year",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "pe-exits/range",
+		"apiReference": "targetCompanyInfo.foundedYear"
+      },
+      {
+        "filterName": "Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "pe-exits/headquarter",
+		"apiReference": "targetCompanyInfo.contact"
+      },
+      {
+        "filterName": "Industry Classification",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "pe-exits/bm_sectors",
+		"apiReference": "targetCompanyInfo.taxonomy"
+      }
+    ]
+  }
+]

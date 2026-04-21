@@ -1,0 +1,23 @@
+{
+  "testCase200": [
+    {
+      "userId": "ayush.gaur@hindustantimes.com",
+      "entityType": "company",
+      "entityId": 140,
+      "filters": {
+        "type": "CompanyExports",
+        "companyFinancialDetailsEnum": {
+          "financial": [
+            "PNL"
+          ],
+          "rawData": {
+            "format": "FORMAT",
+            "currency": "CURRENCY",
+            "reportType": "REPORT_TYPE",
+            "yearData": -1
+          }
+        }
+      }
+    }
+  ]
+}

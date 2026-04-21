@@ -1,0 +1,158 @@
+[
+  {
+    "groupName": "Profile",
+    "filters": [
+      {
+        "filterName": "Limited Partner Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "investorType"
+      },
+      {
+        "filterName": "Total Committed Capital",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "limited-partner/range",
+		"apiReference": "totalCommittedCapitalLp"
+
+      },
+      {
+        "filterName": "Investor Location",
+        "isDefault": false,
+		"filterType": "headquarter",
+		"api": "limited-partner/headquarter",
+		"apiReference": "contact"
+		
+      },
+      {
+        "filterName": "Keyword Search",
+       "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "limited-partner/top",
+		"apiReference": "keywords"
+      },
+      {
+        "filterName": "Investor Name",
+        "isDefault": false,
+		"filterType": "top",
+		"api": "limited-partner/top",
+		"apiReference": "investorName"
+      }
+    ]
+  },
+  {
+    "groupName": "Preferences",
+    "filters": [
+      {
+        "filterName": "Fund Preference",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "fundType"
+		
+      },
+      {
+        "filterName": "Investment Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "investmentType"
+      }
+    ]
+  },
+  {
+    "groupName": "Portfolio Details",
+    "filters": [
+      {
+        "filterName": "Number of Commitments/Funds",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "limited-partner/range",
+		"apiReference": "noOfFundsLp"
+
+		
+      },
+      {
+        "filterName": "Fund Name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "limited-partner/top",
+		"apiReference": "fundInfoLp.investorName"
+      },
+      {
+        "filterName": "Fund Type",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "fundInfoLp.fundInvestorType"
+		
+      },
+      {
+        "filterName": "Fund Focus",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "fundInfoLp.focus"
+		
+      },
+      {
+        "filterName": "Fund Launched Year/date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "limited-partner/range",
+		"apiReference": "fundInfoLp.launchedDate"
+		
+      },
+      {
+        "filterName": "Fund Status",
+        "isDefault": false,
+		"filterType": "multi_select_values",
+		"api": "limited-partner/multi_select_values",
+		"apiReference": "fundInfoLp.fundStatus"
+      },
+      {
+        "filterName": "Target Size",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "limited-partner/range",
+		"apiReference": "fundInfoLp.recentFundRaisingInfo.targetSize"
+      },
+      {
+        "filterName": "Amount Raised",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "limited-partner/range",
+		"apiReference": "fundInfoLp.recentFundRaisingInfo.amountRaised.usd"
+      },
+      {
+        "filterName": "Dry Powder",
+        "isDefault": false,
+		"filterType": "graph",
+		"api": "limited-partner/range",
+		"apiReference": "fundInfoLp.dryPowder.usd"
+      },
+      {
+        "filterName": "Area of Interest",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "limited-partner/top",
+		"apiReference": "fundInfoLp.areaOfInterest"
+      },
+      {
+        "filterName": "Asset Manager",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "limited-partner/top",
+		"apiReference": "fundInfoLp.assetManager"
+      },
+      {
+        "filterName": "Fund Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "limited-partner/headquarter",
+		"apiReference": "fundInfoLp.contact"
+      }
+    ]
+}
+]

@@ -1,0 +1,7 @@
+ <suite name="Company_Financial_Cashflow">
+    <test name="Company_Financial_Cashflow">
+        <classes>
+            <class name="APITestSuite.CompanyDetails.Company_Financial_Cashflow_Test"/>
+        </classes>
+    </test>
+</suite>

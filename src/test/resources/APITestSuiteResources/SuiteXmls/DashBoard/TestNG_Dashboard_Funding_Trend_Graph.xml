@@ -1,0 +1,7 @@
+ <suite name=Dashboard_Funding_Trend_Graph>
+    <test name=Dashboard_Funding_Trend_Graph>
+        <classes>
+            <class name="APITestSuite.Dashboard_Funding_Trend_Graph_Test"/>
+        </classes>
+    </test>
+</suite>

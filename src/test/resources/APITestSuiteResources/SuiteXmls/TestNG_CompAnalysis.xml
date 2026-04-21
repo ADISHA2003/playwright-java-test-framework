@@ -1,0 +1,7 @@
+ <suite name=CompAnalysis>
+    <test name=CompAnalysis>
+        <classes>
+            <class name="APITestSuite.CompAnalysis_Test"/>
+        </classes>
+    </test>
+</suite>

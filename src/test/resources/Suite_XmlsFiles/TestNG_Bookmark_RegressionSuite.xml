@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookmark Regression Suite" parallel="tests" thread-count="8">
+<parameter name="suiteName" value="regression"/>
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+    <test name="Test bookmark entitye detail page">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Detail_Page"/>
+        </classes>
+    </test>
+    <test name="Test Bookmark on global search">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_GlobalSearch"/>
+        </classes>
+    </test>
+    <test name="Test Bookmark on Screener">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Screener"/>
+        </classes>
+    </test>
+</suite>

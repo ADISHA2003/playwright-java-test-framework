@@ -1,0 +1,327 @@
+Component,Bug
+Multi select Filters,Valuation Class I Icon text should have heading - Valuation Class Definitions
+Multi select Filters,Investor Name Filter - Top Investors should be Top 50 Investors
+Multi select Filters,Top Investors search results not showing the data as per design
+Multi select Filters,Unable to remove pills by clicking on X when investors are selected in Investor Name
+Multi select Filters,Acquired By IPO Exchange and investor name - number should not be shown along the heading
+Graph Type Filters,Investment Grade Rating name should be Edge Rating
+Graph Type Filters,Remove R&D Expenses as percentage of revenue as a filter
+Graph Type Filters,EV/EBITDA Ratio - only contains 3 bars
+Multi select Filters,IPO Exchange sorting not as per story
+Filters list,If a user searches for a filter and then clicks on it the searched keyword should be removed from the search box
+Business model - Tree type filters,In case of Food under Food and beverage sector Food is always open and on closing this node top node gets closed because of same name
+Business model - Tree type filters,Ordering of search results not as per story
+Business model - Tree type filters,Still not getting sectors in search results - as per story
+Business model - Tree type filters,Width of Sector section is not as per design. It is less
+Business model - Tree type filters,Selected tiles in business model filter - heading should be 'Selected Business Models' and not 'selected sectors'
+Graph Type Filters,Operators not updated as per story
+Applied Criteria,And Or not making any difference in applied criteria
+Applied Criteria,Founded year is being shown as Date in applied criteria
+Graph Type Filters,No Data state for graph type filters just show No Data text in the whole screen
+Applied Criteria,Space before first Pills selected not as per figma. There should be more space
+Graph Type Filters,Quick Filter options are not as per story. Options in the story were
+Results Preview,Preview Card - Data points not as per story. As per story: Show the following details in this order: Founded Year Sub- IndustryValuation Class and year / Company Stage - if valuation class is available show it else show PE valuation else market cap.Headquarters - City  Country
+Multi select Filters,IPO Exchange: Cannot uncheck exchanges by clicking the checkboxes again
+Multi select Filters,IPO Exchange: Cannot uncheck by clicking cross on the pills
+Multi select Filters,IPO Exchange: Heading should not be Top companies. It should be Select All Exchanges
+Multi select Filters,IPO Exchange: Search option not there
+Multi select Filters,Investor Name: Search results logo image link either broken for some companies or companies where there are no logos is not handled
+Location - Tree type filters,State names are being shown without any spaces
+Graph Type Filters,Select Founded Year Is between Range. Go to data table and come back by clicking modify criteria. Operator shown is is between however the there is no lower limit field.
+Saved Criteria,If a user saves a criteria it should be added to the top of the list when user click on the saved criteria dropdown without having to refresh the page. It is currently not showing till the page refreshes
+Saved Criteria,Saved criteria ordering should be latest on top
+Business model - Tree type filters,Sectors showing on screener are 32 whereas we only have 24 sectors
+Screener Result,Excluding Funds etc from Company screener result detailed logic to be shared by Abhishek
+Graph Type Filters,Change the name of the filter  Post Money Valuation  to  PE Valuation .
+Business model - Tree type filters / Location Filter,space not between count and list item in business model or location name as per figma
+Business model - Tree type filters / Location Filter,size of count at business model or location name level is not as per figma
+Graph filters,currency convertor dropdown placeholder text and arrow is not as per design
+Business model - Tree type filters / Location Filter,count should always shown in first line only and not to be moved in next line if text is longer
+Results Preview,The company logo does not match the Figma design and does not fit  properly in the logo box
+Graph filters,Incorporation Date - right side calender is not working
+Graph filters,All proficiency graphs currently display no data
+Graph Filters,{request:[{fieldName:netProfitCAGR componentName:RangeSliderWithDropdownCAGR values:{type:IS_BETWEEN range:[-100 5258278.71] financialYear:2023 financial Type:Standalone}}] onlyCount:true}
+Graph Filters,Ebitda CAGR- {dataField:ebitdaCAGR financial
+Type:Standalone,request:[]} -(400) 
+Graph Filters,Revenue CAGR -{dataField:revenueCAGR,
+financialType:Standalone,request:[]} -(400)
+Graph Filters,Revenue Growth (YOY) -{dataField:revenue
+GrowthYoY,financialType:Standalone request:[]} -(400)
+Graph Filters,{request:[{fieldName:netProfitMargin componentName:RangeSliderWithDropdown values:{type:IS_BETWEEN financialYear:2023 financialType:Standalone}}] onlyCount:true} (500)
+Business model - Tree type filters / Location Filter,Food and beverage sectors coming thrice. Check the screenshot
+Business model - Tree type filters / Location Filter,There is a mismatch in the business model count in the result preview
+Saved Criteria ,When we click on the expand button for the saved criteria the applied saved criteria do not appear
+Graph Filters,The text for the Graph Section operator does not match the format specified in the Figma design
+Applied Criteria,criteria section Adjust the space between labels
+Applied Criteria,Criteria section Adjust the space applied filter 
+Graph Filters,When I change the numbers in the input box of the graph section the graph does not update to reflect the changes
+Graph Filters,Graph section input box CR And MN text Size as not per figma 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

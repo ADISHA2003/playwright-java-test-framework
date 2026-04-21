@@ -1,0 +1,11 @@
+{
+  "testCase200": 
+{ 
+    "requests":[{
+      "dataTableType":"COMPANIES",
+      "screenerRequest":{},
+      "dataTableRequest":{}}],
+      "filterData":
+      {"dataTableType":"COMPANIES",
+      "filterName":"companyName"}}
+}

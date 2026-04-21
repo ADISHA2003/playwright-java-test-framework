@@ -1,0 +1,6 @@
+package ApiPageObjectRepo.CompanyDetails;
+
+import ApiPageObjectRepo.BaseApiActions;
+
+
+public class Company_Details_Overview_Page_Ebitda_Margin_Graph_ApiPageActions extends BaseApiActions {}

@@ -1,0 +1,11 @@
+public,company,eq,company,companyType,eq,companySourcing,eq,Public Company,6998,6941
+private,company,eq,company,companyType,eq,companySourcing,eq,Private Company,201240,201197
+x-corn,company,ex,company,profile.valuationClass,ex,companySourcing,ex,true,226,0
+education,company,eq,company,companyType,eq,companySourcing,eq,Education Institution,111,111
+trust,company,eq,company,companyType,eq,companySourcing,eq,Trust,339,339
+non gov orgs,company,eq,company,companyType,eq,companySourcing,eq,Non-government organization,53,53
+private investment firms as company,company,eq,company,companyType,eq,companySourcing,eq,Private Investment Firm,1159,1159
+govt insititutions,company,eq,company,companyType,eq,companySourcing,eq,Government Institution,78,78
+public investment firms as company,company,eq,company,companyType,eq,companySourcing,eq,Public Investment Firm,15,15
+charitable trust,company,eq,company,companyType,eq,companySourcing,eq,Charitable Trust,41,41
+foundation,company,eq,company,companyType,eq,companySourcing,eq,Foundation,143,143

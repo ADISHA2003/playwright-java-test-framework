@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+  {"requests":[{"dataTableType":"INVESTORS","screenerRequest":{},"dataTableRequest":{"request":[],"page":0,"size":100,"currencyType":"INR","numberScale":"CRORE","sortBy":"assetUnderManagement.amount","orderBy":"DESC"}},{"dataTableType":"COMPANIES","dataTableRequest":{"request":[],"page":0,"size":20,"currencyType":"INR","numberScale":"CRORE","sortBy":"overallScore","orderBy":"DESC"}}],"userId":null}
+}

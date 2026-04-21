@@ -1,0 +1,7 @@
+ <suite name="ScreeningMultifield">
+    <test name="ScreeningMultifield">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.ScreeningMultifield_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name=DashboardFilterCriteria>
+    <test name=DashboardFilterCriteria>
+        <classes>
+            <class name="APITestSuite.DashboardFilterCriteria_Test"/>
+        </classes>
+    </test>
+</suite>

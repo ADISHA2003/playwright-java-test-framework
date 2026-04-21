@@ -1,0 +1,7 @@
+ <suite name=Dashboard_Top_Companies>
+    <test name=Dashboard_Top_Companies>
+        <classes>
+            <class name="APITestSuite.Dashboard_Top_Companies_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name=Dashboard_Latest_Deals>
+    <test name=Dashboard_Latest_Deals>
+        <classes>
+            <class name="APITestSuite.Dashboard_Latest_Deals_Test"/>
+        </classes>
+    </test>
+</suite>

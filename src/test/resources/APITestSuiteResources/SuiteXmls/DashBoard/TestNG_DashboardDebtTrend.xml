@@ -1,0 +1,7 @@
+ <suite name=DashboardDebtTrend>
+    <test name=DashboardDebtTrend>
+        <classes>
+            <class name="APITestSuite.DashboardDebtTrend_Test"/>
+        </classes>
+    </test>
+</suite>

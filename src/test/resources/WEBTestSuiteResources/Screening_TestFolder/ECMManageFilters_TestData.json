@@ -1,0 +1,146 @@
+[
+  {
+    "groupName": "Deal Information",
+    "filters": [
+      {
+        "filterName": "Deal Subtype",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "equity-capital-market/multi_select_values",
+		"apiReference": "dealSubtype"
+      },
+      {
+        "filterName": "Deal Feature",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "equity-capital-market/multi_select_values",
+		"apiReference": "dealFeatures"
+      },
+      {
+        "filterName": "Deal Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "equity-capital-market/multi_select_values",
+		"apiReference": "dealStatus"
+      },
+      {
+        "filterName": "Transaction Announced Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "equity-capital-market/range",
+		"apiReference": "announcementDate"
+      },
+      {
+        "filterName": "Transaction Closing Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "equity-capital-market/range",
+		"apiReference": "closingDate"
+      },
+      {
+        "filterName": "Deal value",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "equity-capital-market/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "% Sought",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "equity-capital-market/range",
+		"apiReference": "percentageSought"
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "equity-capital-market/top-keyword",
+		"apiReference": "keywords"
+      }
+    ]
+  },
+  {
+    "groupName": "Buyer",
+    "filters": [
+      {
+        "filterName": "Buyer name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "equity-capital-market/top",
+		"apiReference": "Buyer"
+      }
+    ]
+  },
+  {
+    "groupName": "Seller",
+    "filters": [
+      {
+        "filterName": "Seller name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "equity-capital-market/top",
+		"apiReference": "Seller"
+      }
+    ]
+  },
+  {
+    "groupName": "Facilitators",
+    "filters": [
+      {
+        "filterName": "Investment Banks",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "equity-capital-market/top",
+		"apiReference": "investmentBanks.name"
+      },
+      {
+        "filterName": "Law Firms",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "equity-capital-market/top",
+		"apiReference": "legalAdvisors.name"
+      }
+    ]
+  },
+  {
+    "groupName": "Target company",
+    "filters": [
+      {
+        "filterName": "Company name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "equity-capital-market/top",
+		"apiReference": "targetCompanyInfo.companyName"
+      },
+      {
+        "filterName": "Company type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "equity-capital-market/multi_select_values",
+		"apiReference": "targetCompanyInfo.companyType"
+      },
+      {
+        "filterName": "Founded Year",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "equity-capital-market/range",
+		"apiReference": "targetCompanyInfo.foundedYear"
+      },
+      {
+        "filterName": "Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "equity-capital-market/headquarter",
+		"apiReference": "targetCompanyInfo.contact"
+      },
+      {
+        "filterName": "Industry Classification",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "equity-capital-market/bm_sectors",
+		"apiReference": "targetCompanyInfo.taxonomy"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+ <suite name=NLP_getRecentSearch>
+    <test name=NLP_getRecentSearch>
+        <classes>
+            <class name="APITestSuite.GlobalSearch.NLP_getRecentSearch_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,2 @@
+type,mongoCollection,mongoField,mongoCondition,mongoScreenerCollection,screenerCondition,mongoScreenerField,mongo_value,mongoId
+trust,company,companyType,eq,companySourcing,eq,companyType,Trust,companyId

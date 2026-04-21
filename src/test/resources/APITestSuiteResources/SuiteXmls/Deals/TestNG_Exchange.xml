@@ -1,0 +1,7 @@
+ <suite name="Exchange">
+    <test name="Exchange">
+        <classes>
+            <class name="APITestSuite.Deals.Exchange_Test"/>
+        </classes>
+    </test>
+</suite>

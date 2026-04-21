@@ -1,0 +1,7 @@
+ <suite name=DashboardMnaGraph>
+    <test name=DashboardMnaGraph>
+        <classes>
+            <class name="APITestSuite.DashboardMnaGraph_Test"/>
+        </classes>
+    </test>
+</suite>

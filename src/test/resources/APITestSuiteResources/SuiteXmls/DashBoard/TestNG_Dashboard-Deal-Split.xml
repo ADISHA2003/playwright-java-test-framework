@@ -1,0 +1,7 @@
+ <suite name="Dashboard-Deal-Split">
+    <test name="Dashboard-Deal-Split">
+        <classes>
+            <class name="APITestSuite.Dashboard-Deal-Split_Test"/>
+        </classes>
+    </test>
+</suite>

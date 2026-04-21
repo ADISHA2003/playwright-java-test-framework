@@ -1,0 +1,6 @@
+SQL_CompanyRecordCount: "SELECT COUNT(*) FROM Company"
+MONGO_CompanyRecordCount: "db.Company.count()"
+SQL_CompanyNullCount:"select count(*) from company where column=null;"
+SQL_CompanyEmptyCount:"select count(*) from company where column='';"
+SQL_CompanyGetColumns:"SELECT * FROM  INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'company' AND TABLE_SCHEMA = 'dev_appdb';"
+SQL_CompanyGetColumnCount

@@ -1,0 +1,7 @@
+ <suite name="filterValues" parallel = "methods" thread-count="3">
+    <test name="filterValues">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.FilterValues_Test"/>
+        </classes>
+    </test>
+</suite>

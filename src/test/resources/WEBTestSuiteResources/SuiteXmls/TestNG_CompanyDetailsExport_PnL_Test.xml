@@ -1,0 +1,8 @@
+<suite name="Company Details export">
+    <parameter browser="chrome" testtool="playwright"/>
+    <test name="Company Details PnL">
+        <classes>
+            <class name="WebTestSuite.FeatureTests.ExportFeature.CompanyDetailsExport_PnL_Test"/>
+        </classes>
+    </test>
+</suite>

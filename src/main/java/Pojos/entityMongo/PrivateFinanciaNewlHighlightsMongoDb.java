@@ -1,0 +1,134 @@
+package Pojos.entityMongo;
+
+import co.elastic.clients.util.DateTime;
+import jakarta.persistence.Id;
+import lombok.Data;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+@Data
+
+@Document(collection = "PrivateFinanciaNewlHighlightsMongoDb")
+public class PrivateFinanciaNewlHighlightsMongoDb {
+    @Id
+    private String id;
+    private Integer companyId;
+    private Integer updatedOn;
+    private Integer fromDate;
+    private Integer toDate;
+    private String reportingStandard;
+    private String conversionFactor;
+    private String yearEnd;
+    private String financialFormat;
+    private Double netSales;
+    private Double otherIncome;
+    private Double totalIncome;
+    private Double totalExpenditurePL;
+    private Double depreciation;
+    private Double interest;
+    private Double totalExpenditure;
+    private Double ebitda;
+    private Double ebit;
+    private Double pbt;
+    private Double tax;
+    private Double pat;
+    private Double equityPaidUp;
+    private Double reservesAndSurplusReported;
+    private Double shareApplPendingAllot;
+    private Double reservesSurplus;
+    private Double netWorth;
+    private Double unsecuredLoan;
+    private Double securedLoan;
+    private Double totalDebt;
+    private Double grossBlock;
+    private Double netBlock;
+    private Double defTaxLiabilities;
+    private Double capitalWip;
+    private Double investments;
+    private Double cashBankBalance;
+    private Double inventories;
+    private Double sundryDebtors;
+    private Double otherCurrentAssets;
+    private Double loansAndAdvances;
+    private Double totalCurrentAssets;
+    private Double currentLiabilities;
+    private Double provisions;
+    private Double netCurrentAssets;
+    private Double totalCurrentLiabilities;
+    private Double defTaxAssets;
+    private Double totalAssets;
+    private Double cashFlowOperations;
+    private Double cashFlowInvesting;
+    private Double cashFlowFinancing;
+    private Double freeCashFlow;
+    //    private Double minorityInterest;
+    private Double totalPreferred;
+    private Double sharesOs;
+    private Double sharesOsFullyDiluted;
+    private Double epsBasic;
+    private Double epsDiluted;
+    private Double dividend;
+    private Double debtEquity;
+    private Double currentRatio;
+    private Double roce;
+    private Double ronw;
+    private Double ebidtaMargin;
+    private Double patMargin;
+    private Double cpm;
+    private Double acidRatio;
+    private Double debtToAssetRatio;
+    private Double assetTurnoverRatio;
+    private Double cashFlowCoverageRatio;
+    private Double operationCashFlowMargin;
+    private Double cashRatio;
+    private Double inventoryTurnoverRatio;
+    private Double workingCapitalTurnoverRatio;
+    private Double returnOnAssetsRatio;
+    private Double operatingProfitMargin;
+    private Double costOfMaterialConsumed;
+    private Double purchaseOfStockInTrade;
+    private Double changeInInventoriesOfFinishedGoods;
+    private Double changeInInventoriesOfWorkInProgress;
+    private Double changeInInventoriesOfStockInTrade;
+    private Double employeeBenefitExpenses;
+    private Double managerialRemuneration;
+    private Double paymentToAuditors;
+    private Double insuranceExpenses;
+    private Double powerAndFuel;
+    private Double otherExpenses;
+    private Double csrExpenditure;
+    private String pfhDescription;
+    private Double currentInvestments;
+    private Double nonCurrentInvestments;
+    private Double shortTermBorrowings;
+    private Double sundryCreditors;
+    private Double otherCurrentLiabilities;
+    private Double accumulatedDepreciation;
+    private Double otherSoffunds;
+    private String otherSoffundsName;
+    private Double totalSoffunds;
+    private Double miscExpenditure;
+    private Double profitLossAccount;
+    private String othersAoffundsName;
+    private Double othersOoffunds;
+    private Double totalFixedAssets;
+    private String financialType;
+    private Double moneyReceivedAgainstShareWarrants;
+    private Double otherLongTermLiabilities;
+    private Double longTermProvisions;
+    private Double tangibleAssets;
+    private Double intangibleAssets;
+    private Double longTermLoansAndAdvances;
+    private Double otherNonCurrentAssets;
+    private Double longTermBorrowings;
+    private Integer priorityCheck;
+    private Double exceptionalItems;
+    private Double priorPeriodItems;
+
+    @LastModifiedDate
+    private DateTime updatedAt;
+    @CreatedDate
+    private DateTime createdAt;
+}

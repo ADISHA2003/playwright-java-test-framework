@@ -1,0 +1,7 @@
+ <suite name="GetNewsLetterConfig" parallel = "methods" thread-count="3">
+    <test name="GetNewsLetterConfig">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.GetNewsLetterConfig_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+[
+  {
+    "groupName": "Company Profile",
+    "subGroups": [
+      {
+        "subGroupName": "Company Details",
+        "subCategories": [
+          {
+            "filters": [
+              {
+                "filterName": "Edge Rating",
+                "isDefault": false,
+                "filterType": "graph",
+                "api": "range",
+                "apiReference": "overallScore"
+              }
+            ]
+          }
+        ]
+      }]
+  }
+]

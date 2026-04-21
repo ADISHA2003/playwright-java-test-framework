@@ -1,0 +1,7 @@
+ <suite name="HeadquarterCompanyScreening">
+    <test name="HeadquarterCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.HeadquarterCompanyScreening_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name="Company_Details_Overview_Page_Buisness_Model_Api">
+    <test name="Company_Details_Overview_Page_Buisness_Model_Api">
+        <classes>
+            <class name="APITestSuite.CompanyDetails.Company_Details_Overview_Page_Buisness_Model_Api_Test"/>
+        </classes>
+    </test>
+</suite>

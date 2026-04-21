@@ -1,0 +1,7 @@
+ <suite name=DashboardTopStatesGraph>
+    <test name=DashboardTopStatesGraph>
+        <classes>
+            <class name="APITestSuite.DashboardTopStatesGraph_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name="KeyDevelopments" parallel = "methods" thread-count="3">
+    <test name="KeyDevelopments">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.KeyDevelopments_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name=GlobalSearch_RecentSearch>
+    <test name=GlobalSearch_RecentSearch>
+        <classes>
+            <class name="APITestSuite.GlobalSearch.GlobalSearch_RecentSearch_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+ <suite name="All KeyDevelopments apis suite" parallel = "methods" thread-count="3">
+    <test name="filterValues">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.FilterValues_Test"/>
+        </classes>
+    </test>
+     <test name="GetEventTypesCountByUserId_Test">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.GetEventTypesCountByUserId_Test"/>
+        </classes>
+     </test>
+     <test name="keyDevelopments">
+        <classes>
+            <class name="APITestSuite.KeyDevelopments.KeyDevelopments_Test"/>
+        </classes>
+     </test>
+
+</suite>

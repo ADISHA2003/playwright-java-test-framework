@@ -1,0 +1,6 @@
+package ApiPageObjectRepo.CompanyDetails;
+
+import ApiPageObjectRepo.BaseApiActions;
+
+
+public class Company_Details_Investor_And_Shareholding_Tab_Shareholding_HistoryPageActions extends BaseApiActions {}

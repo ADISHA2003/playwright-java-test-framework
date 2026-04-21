@@ -1,0 +1,8 @@
+{
+  "testCase200":
+  {
+    "persona":"Private Equity Professional",
+    "useCases": ["Screening Investors", "Compare Companies"],
+    "sectors":["Financials", "Technology"]
+  }
+}

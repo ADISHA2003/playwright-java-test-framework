@@ -1,0 +1,7 @@
+ <suite name=DashboardFundRaiseGraph>
+    <test name=DashboardFundRaiseGraph>
+        <classes>
+            <class name="APITestSuite.DashboardFundRaiseGraph_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,108 @@
+[
+  {
+    "groupName": "Deal Information",
+    "filters": [
+      {
+        "filterName": "Deal Subtype",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "debt-transaction/multi_select_values",
+		"apiReference": "dealSubtype"
+      },
+      {
+        "filterName": "Deal Feature",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "debt-transaction/multi_select_values",
+		"apiReference": "dealFeatures"
+      },
+      {
+        "filterName": "Deal Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "debt-transaction/multi_select_values",
+		"apiReference": "dealStatus"
+      },
+      {
+        "filterName": "Transaction Announced Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "debt-transaction/range",
+		"apiReference": "announcementDate"
+      },
+      {
+        "filterName": "Transaction Closing Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "debt-transaction/range",
+		"apiReference": "closingDate"
+      },
+      {
+        "filterName": "Deal value",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "debt-transaction/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "debt-transaction/top-keyword",
+		"apiReference": "keywords"
+      }
+    ]
+  },
+  {
+    "groupName": "Target company",
+    "filters": [
+      {
+        "filterName": "Company name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "debt-transaction/top",
+		"apiReference": "targetCompanyInfo.companyName"
+      },
+      {
+        "filterName": "Company type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "debt-transaction/multi_select_values",
+		"apiReference": "targetCompanyInfo.companyType"
+      },
+      {
+        "filterName": "Founded Year",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "debt-transaction/range",
+		"apiReference": "targetCompanyInfo.foundedYear"
+      },
+      {
+        "filterName": "Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "debt-transaction/headquarter",
+		"apiReference": "targetCompanyInfo.contact"
+      },
+      {
+        "filterName": "Industry Classification",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "debt-transaction/bm_sectors",
+		"apiReference": "targetCompanyInfo.taxonomy"
+      }
+    ]
+  },
+  {
+    "groupName": "Lender",
+    "filters": [
+      {
+        "filterName": "Lender Name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "debt-transaction/top",
+		"apiReference": "Buyer"
+      }
+    ]
+  }
+]

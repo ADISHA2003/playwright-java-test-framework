@@ -1,0 +1,21 @@
+{
+  "testStatus200": {
+    "text":"abc",
+    "type":"ALL",
+    "page":1,
+    "size":10
+  },
+  "testName2": {
+    "text":"",
+    "type":"ALL",
+    "page":1,
+    "size":10
+  },
+  "testName3": {
+    "text":"",
+    "type":"ALL",
+    "page":1,
+    "size":10
+  }
+
+}

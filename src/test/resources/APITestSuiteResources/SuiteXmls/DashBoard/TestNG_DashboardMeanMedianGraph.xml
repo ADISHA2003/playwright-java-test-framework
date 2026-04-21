@@ -1,0 +1,7 @@
+ <suite name=DashboardMeanMedianGraph>
+    <test name=DashboardMeanMedianGraph>
+        <classes>
+            <class name="APITestSuite.DashboardMeanMedianGraph_Test"/>
+        </classes>
+    </test>
+</suite>

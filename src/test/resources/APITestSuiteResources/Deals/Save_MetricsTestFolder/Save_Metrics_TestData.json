@@ -1,0 +1,108 @@
+{
+  "testCase200": [
+    {
+      "key": "totalDealValue",
+      "name": "Total Deal Value",
+      "formulae": null,
+      "dataType": "Currency",
+      "value": "123.73",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Currency"
+    },
+    {
+      "key": "percentageSought",
+      "name": "Percentage Sought",
+      "formulae": null,
+      "dataType": "Percentage",
+      "value": "2.2",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Percentage"
+    },
+    {
+      "key": "transactionStatus",
+      "name": "Transaction Status",
+      "formulae": null,
+      "dataType": "Text",
+      "value": "Closed",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Text"
+    },
+    {
+      "key": "definitiveAgreementDate",
+      "name": "Definitive Agreement Date",
+      "formulae": null,
+      "dataType": "Text",
+      "value": "27th Jun 2022",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Text"
+    },
+    {
+      "key": "cancellationDate",
+      "name": "Cancellation Date",
+      "formulae": null,
+      "dataType": "Text",
+      "value": "",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Text"
+    },
+    {
+      "key": "closingDate",
+      "name": "Closing Date",
+      "formulae": null,
+      "dataType": "Text",
+      "value": "25th Aug 2022",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Text"
+    },
+    {
+      "key": "noOfBuyers",
+      "name": "Number of Buyers",
+      "formulae": null,
+      "dataType": "Number",
+      "value": "0",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Number"
+    },
+    {
+      "key": "noOfSellers",
+      "name": "Number of Sellers",
+      "formulae": null,
+      "dataType": "Number",
+      "value": "2",
+      "isSelected": true,
+      "isDefault": true,
+      "category": "MERGER_AND_ACQUISITION",
+      "subValue": "",
+      "infoCategory": null,
+      "dataTypeEnum": "Number"
+    }
+  ]
+}

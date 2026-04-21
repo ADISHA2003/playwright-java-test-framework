@@ -1,0 +1,145 @@
+Labels,Summary
+Landing Page,On landing pagenot able to close a open dropdown of any category
+Investors,Corporate Vcs sub category is not prsent in investors (Ex - tata)
+Landing Page,Data is not appearing in sub-categories like for service providersinvestorsprofessionals (Ex-tata)
+Landing Page,On landing page reports and documents are not in correct order
+Bookmark,Bookmark api giving 500 error
+Professionls,Not able to search professionlas using company name
+Professionls,In professional data cardcompany name should not come.
+Funds,In funds data card year launchedarea of interest are not present (year launched is present in api but not in frontend).
+Reports,Date format is diff in reports data cards (Ex - reports)
+Landing Page,Smart Suggestions are missing in landing page
+Dropdown,Click on global searchnow press enteran unneccesary delete api is calling
+Recently Visited,Recently Visited api is not getting updated
+Landing Page,Subcategories order is incorrect when count is zero or non zero
+Landing Page,When user activates search field again or clears it by clicking  cross  icondropdown should be displayed and landing page should be visible in the back
+Recent Search,Save recent search api is giving 500 error
+Service Provider,In auditor data card #Audit clients are missing and deals adviced should not come (Ex-I M Puri)
+NLP,NLP banner should not come in searching state
+Landing Page,Search reportsgo to landing pagenow click on any subcategory which has count. That subcategory is not getting selected but data is appearing.
+NLP,In NLP searchwrite I want to see companies whose valuation class is soonicornit is selecting x-corn filter which should be valuation class.
+NLP,In NLPsearch operating companies and go to screenerin criteria it is not showing the filter name.
+Asset Manager,Search tatago to asset managersasset manager spelling is incorrect in API call.
+Recently Visited,In getRecentVisisted APIentity id of Meesho Payments Pvt. Ltd. is null
+Recently Visited,Click on any company on recently visitedaddRecentvisiteb api is not calling
+Landing Page,Search tatago to investors tab and service Providerssubtab count is wrong
+Landing Page,Search tatago to landing pagenow clear tata in search boxdropdown will opennow click outside the dropdowngo to any categorydata is not coming
+Recent Visited,Documents and reports are not reflecting in recently visited when opening in landing page.
+Logos,What logo should comeif entity dont have the logo (Need to clarify from product)
+Logos,On landing pagecompaniesinvestors logos are wrong
+NLP,Clear all button is missing in NLP recent search query
+UI,In NLPRecent search query should be Recent Searched Queries
+Dropdown,Search fvfdvfdvdNo Result dropdown text is wrong (Different spelling is wrong).
+No Result Display,If i am getting no result in dropdownthen I am not able to go to landing page
+Service Provider,Service Provider Data not coming.
+Entity card,IN Recent Visitedclick on data card logoit is not directing to the dedicated company but getting updated in recent visited and same for data cards
+Landing Page,On landing pageview all button is not working for any category.
+Sub-industry,In Tata cosumer Productswe r getting 5 sub-industry from backendand they all r same.
+Searching,Global search api not giving response for com keyword (response coming after 5 min)
+Sub-industry,Sub-industry not coming from backend for reports and documents.
+,Seach Netflix Inc. there is extra in location data point in company data card.
+,Not able to open reports or documents in recent visited
+,Not able to scrollwhen hover on any  disabled card
+UI,When hover on a data cardhand icon is not appearing
+UI,In ALL section of landing pages is missing from Service Providers heading and its view all button.
+,Family officesAngels data not coming in Investors (Ex - rare enterprises (Family office)A K Mahadevan (Angel INvestor).
+,Matching criteria missing from service provider from frontend. (Ex -Fincare Capital Management Services LLP)
+,Area of interest not coming in fund data card (Ex - 021 capital fund)
+,Company should not be search with business description (Ex- swiggy)
+,Search tatago to landing pagenow clear tata in search boxdropdown will opennow click outside the dropdown,smart sugestions are coming which should not.
+,Search Food tech go to public companiescount is 10 but data cards are more than 10.
+UI,On hovering a recent search pill it is not as per the figma. And same with data card
+UI,On landing pages is missing from Reports category
+UI,On landing pageit should Smart Suggestions instead of Suggested queries for you.
+,In fund data cardcompanyStatus is coming instead of FundStatus. (Ex - DST Global.
+,Need to add tooltip for every data point
+,Not able to search investor using website area of interest(Ex - dst-global.com)
+Recent Visited,When I click recently visited pill and press enterits not reflecting in new order in recent searches
+Recent Search,When I search for a new word and press enterits not getting recorded as recent search
+Searching,(+count more) : tooltip contents are incorrect
+Searching,Relevance order of letters in name is wrongDBA names etc are also geeting counted. Scoring needs to be looked into
+NLP,The coachmark arrow will be displayed when banner is displayedcurrently its there all the time
+NLP,Bannner not present
+SuggestedQueries,Suggestions are not displayed (All suggestions as per personas)
+NLP,NLP search field placeholder is incorrect ()
+NLP,First click on NLP CTA is closing dropdown and not switching to NLP mode
+NLP,NLP textfield animation is fast
+Entity Card,Entity card: Criteria match is displaying any match
+Entity Card,Entity card > Company > sub-industry is not displayed
+Company,On landing page if I click on Private its giving erroe when it already ahs 2 results
+Landing Page,Sub-categories on landing page are not functional - companyinvestors and professionals(counts are also wrong)
+Entity Card,+count more is highlighted
+Dropdown,In dropdown- result category order is wrong - type report and check results 
+Entity Card,Entity card > Investor > area of interest is not displayed
+Entity Card,IB and Law Firm > entity card - data points not correct (count 144)
+Entity Card,Professional card - data point : designation is also showing company namethen company name is becoming redundant.
+Entity Card,Company Entity card: Founded Year Sub- Industry Valuation Class and year. If it is not availableshow Company Stage - If stage not available show PE valuation else market cap.Headquarters - CityCountry
+Entity Card,Fund entity card : data points are incorrect
+Entity Card,Typing website: criterai match is incomplete- only showing https
+DIN,DIN search is not working
+Bookmark,I am not able to unmark already bookmarked company
+Bookmark,Bookmarked entity card should actively show bookmark icon not just onhover
+Sc code,SC code search is not working
+Searching,Onhover criteria matchI am not getting tooltip showing DBA name
+Searching,Criteria match is showing all fields of name
+Searching,In some places criterai match is missing
+NLP,NLP suggestions not working (not relevant)
+Landing Page,When I click cross icon the landing page also goes awayit should persist (Company)
+Bookmark,Bookmark is not reflecting on all cards (inconsistent)
+Bookmark,When I bookmark an entity and then search it againbookmarked state doesnot persist
+Searching,DBA name and previous name is not working(check JIRA story for searchable fields)
+Bookmark,Add bookmark in the dropdown as well
+Recent Search,Add recent searches and visited entities for last 30 days window
+Placeholder Icon,Funds and Service provider placeholder icon update
+LOGO,company logo fill is incorrect
+Logo,Grey out the logos as well for the entities which do not have detail pages
+Icon,Cross icon needs to be updated
+Icon,Icons not available for all the types
+Font,Font for Private and public is very smallneed to make it the same as design
+Icon,The arrows are incorrectneeds to be the new arrows
+Recent Visited,In recently visited section the spacing between each card is not 8pxlooks dense.
+Search bar,Need to add a clickable text in the search bar.
+Company,the name of the company should have been truncated after 1 line.
+I icon text,I icon text is wrong
+NLP,The gradient ring around the search bar needs tom move slower like in design
+NLP,NLP search click enteropening landing page for entity search. Should not open landing page
+Reports/Documents,Reports of <Company> and Documents are giving access denied
+Searching,Search VCC: NAV capital is a fundits displayed under company
+Searching,Data points in cards are displaying 
+Searching,Type Swiggymatching criteria need not to be displayed as its in the name. Please check scoring
+Searching,Reports and documents not opening from recently visited
+Searching,Remove company from public company in company data card
+Searching,Website serach is not working
+No Detail Page,For entities with no detail pagesdisabled and on hover tooltip needs to be added
+,In Investors data cardportfolio count  not coming from backend
+,Same query gives different suggestions and applied filter everytime
+,In most cases one fixed filter is extra applied ie Private Equity Funding
+,In cases where we say Top companies there is no mapping of filters to any relevant metric
+,Even if I write simplistic querysuggestions language is completely irrelevant in every other case
+,When I type reportsdocumentnews or key development it lands on Overview Tab
+,In many cases if query has 3 filter combinationsit applied only 2. Not all keywords are considered
+,In many cases wrong filters are getting applied (refer below usecases)
+,Sometimes simplistic queries are not giving any suggestion in dropdown - no results
+,Many cases are there where wrong filters are getting applied and that too with empty values
+,Currency handling
+,Reports of <Company>
+,Documents of <Company>
+,News for <Company>
+,Key Developments for Swiggy
+,Companies in fintech in India
+,Delhi companies with annual founded in 2016 with revenue > 50 M
+,unicorn companies founded in 2018 to 2021
+,companies with post money valuation > 20 cr founded after 2015
+,public companies in Pune with CAGR > 20
+,private companies with CAGR > 20 founded in 2019
+,private companies with stage B
+,Non-operating companies in Bangalore
+,give me top companies in Delhi
+,list of companies funded recently
+,display companies with high profit margin
+,give unicorn companies from Chennai
+,companies funded by family office
+,companies in finance sector with gross margin > 20%
+,Display companies in Mumbai with Debt to EBITDA ratio > 10 founded in 2012
+,companies whose last funding was > 5M
+,companies funded by Bangalore based investors

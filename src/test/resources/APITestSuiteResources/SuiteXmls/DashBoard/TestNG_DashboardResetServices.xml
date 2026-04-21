@@ -1,0 +1,7 @@
+ <suite name=DashboardResetServices>
+    <test name=DashboardResetServices>
+        <classes>
+            <class name="APITestSuite.DashboardResetServices_Test"/>
+        </classes>
+    </test>
+</suite>

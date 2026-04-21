@@ -1,0 +1,29 @@
+<suite name="Deals API SUITE"  parallel = "methods" thread-count="3">
+    <test name="Key Financials status 200 check">
+        <classes><class name="APITestSuite.CompanyDetails.KEY_FINANCIALS_Test"/></classes></test>
+    <test name=" MNA Deal Financials endpoint Status 200 Check">
+
+        <classes> <class name="APITestSuite.Deals.PE_Deals_Advisors_Test"/></classes></test>
+    <test name="Deals Breadcrumb Status 200 Check">
+        <classes> <class name="APITestSuite.Deals.PE_Deals_Breadcrumb_Test"/></classes></test>
+    <test name="Deals Buyer Details status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_BuyerDetails_Test"/></classes></test>
+    <test name="Deals Deal feature status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_DealFeature_Test"/></classes></test>
+    <test name="Deals Deal Multiple API status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_DealMultiple_Test"/> </classes></test>
+    <test name="Deals Deal Summary status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_DealSummary_Test"/> </classes></test>
+    <test name="Deals Key Metrics status 200 check">
+        <classes><class name = "APITestSuite.Deals.PE_Deals_KeyMetrics_Test"/></classes></test>
+    <test name="Deals Linked Deals status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_LinkedDeals_Test"/></classes></test>
+    <test name="Deals Seller Details status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_SellerDetails_Test"/></classes></test>
+    <test name="Deals Similar deals status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_SimilarDeals_Test"/></classes></test>
+    <test name="Deals Sources status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_Sources_Test"/></classes></test>
+    <test name="Deals Transaction Description status 200 check">
+        <classes><class name="APITestSuite.Deals.PE_Deals_TransactionDescription_Test"/></classes></test>
+</suite>

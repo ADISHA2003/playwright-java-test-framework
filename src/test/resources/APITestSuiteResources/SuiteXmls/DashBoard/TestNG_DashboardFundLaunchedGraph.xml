@@ -1,0 +1,7 @@
+ <suite name=DashboardFundLaunchedGraph>
+    <test name=DashboardFundLaunchedGraph>
+        <classes>
+            <class name="APITestSuite.DashboardFundLaunchedGraph_Test"/>
+        </classes>
+    </test>
+</suite>

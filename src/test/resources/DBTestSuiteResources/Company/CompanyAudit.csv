@@ -1,0 +1,5 @@
+Component,SqlResult,MongoResult
+TotalCount,,
+Node_Null_Mismatch,
+Node_Empty_Mismatch,
+Node_Data_Mismatch,,

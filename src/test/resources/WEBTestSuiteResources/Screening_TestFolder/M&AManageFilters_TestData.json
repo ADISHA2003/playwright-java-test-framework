@@ -1,0 +1,168 @@
+[
+  {
+    "groupName": "Deal Information",
+    "filters": [
+      {
+        "filterName": "Deal Subtype",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "merger-and-acquisition/multi_select_values",
+		"apiReference": "dealSubtype"
+      },
+      {
+        "filterName": "Deal Feature",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "merger-and-acquisition/multi_select_values",
+		"apiReference": "dealFeatures"
+      },
+      {
+        "filterName": "Deal Status",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "merger-and-acquisition/multi_select_values",
+		"apiReference": "dealStatus"
+      },
+      {
+        "filterName": "Transaction Announced Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "announcementDate"
+      },
+      {
+        "filterName": "Transaction Closing Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "closingDate"
+      },
+      {
+        "filterName": "Deal value",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "dealValue"
+      },
+      {
+        "filterName": "% Sought",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "percentageSought"
+      },
+      {
+        "filterName": "EV/Revenue",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "evRevenue"
+      },
+      {
+        "filterName": "EV/EBITDA",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "evEbitda"
+      },
+      {
+        "filterName": "EV/PAT",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "evPat"
+		
+      },
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "merger-and-acquisition/top-keyword",
+		"apiReference": "keywords"
+      }
+    ]
+  },
+  {
+    "groupName": "Buyer",
+    "filters": [
+      {
+        "filterName": "Buyer name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "merger-and-acquisition/top",
+		"apiReference": "Buyer"
+      }
+    ]
+  },
+  {
+    "groupName": "Seller",
+    "filters": [
+      {
+        "filterName": "Seller name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "merger-and-acquisition/top",
+		"apiReference": "Seller"
+      }
+    ]
+  },
+  {
+    "groupName": "Facilitators",
+    "filters": [
+      {
+        "filterName": "Investment Banks",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "merger-and-acquisition/top",
+		"apiReference": "investmentBanks.name"
+      },
+      {
+        "filterName": "Law Firms",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "merger-and-acquisition/top",
+		"apiReference": "legalAdvisors.name"
+      }
+    ]
+  },
+  {
+    "groupName": "Target company",
+    "filters": [
+      {
+        "filterName": "Company name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "merger-and-acquisition/top",
+		"apiReference": "targetCompanyInfo.companyName"
+      },
+      {
+        "filterName": "Company type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "merger-and-acquisition/multi_select_values",
+		"apiReference": "targetCompanyInfo.companyType"
+      },
+      {
+        "filterName": "Founded Year",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "merger-and-acquisition/range",
+		"apiReference": "targetCompanyInfo.foundedYear"
+      },
+      {
+        "filterName": "Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "merger-and-acquisition/headquarter",
+		"apiReference": "targetCompanyInfo.contact"
+      },
+      {
+        "filterName": "Industry Classification",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "merger-and-acquisition/bm_sectors",
+		"apiReference": "targetCompanyInfo.taxonomy"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Company Screenr Suite">
+
+    <test name="Company Component tests">
+        <classes >
+            <class name="WebTestSuite.FeatureTests.CompanyScreener_Test"/>
+        </classes>
+    </test>
+</suite>

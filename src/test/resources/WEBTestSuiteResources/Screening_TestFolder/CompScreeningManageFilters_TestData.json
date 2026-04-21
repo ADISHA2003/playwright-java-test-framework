@@ -1,0 +1,630 @@
+[
+  {
+    "groupName": "Company Profile",
+    "subGroups": [
+      {
+        "subGroupName": "Company Details",
+        "filters": [
+          {
+            "filterName": "Company Type",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "companyType"
+          },
+          {
+            "filterName": "Founded Year",
+            "isDefault": true,
+            "filterType": "graph_year",
+            "api": "range",
+            "apiReference": "foundedYear"
+          },
+          {
+            "filterName": "Incorporation Date",
+            "isDefault": false,
+            "filterType": "graph_year",
+            "api": "range",
+            "apiReference": "incorporationDate"
+          },
+          {
+            "filterName": "Company Status",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "companyStatus"
+          },
+          {
+            "filterName": "Keyword Search",
+            "isDefault": true,
+            "filterType": "keyword_search",
+            "api": "top",
+            "apiReference": "keywords"
+          },
+          {
+            "filterName": "Special Flags",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "flags"
+          },
+          {
+            "filterName": "Company Stage",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "roundOfInvestment"
+          },
+          {
+            "filterName": "Valuation Class",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "valuationClass"
+          },
+          {
+            "filterName": "Edge Rating",
+            "isDefault": false,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "overallScore"
+          },
+          {
+            "filterName": "IPO Date",
+            "isDefault": false,
+            "filterType": "graph_year",
+            "api": "range",
+            "apiReference": "ipoDate"
+          },
+          {
+            "filterName": "IPO Exchange",
+            "isDefault": false,
+            "filterType": "top",
+            "api": "top",
+            "apiReference": "ipoExchange"
+          },
+          {
+            "filterName": "Parent Company",
+            "isDefault": false,
+            "filterType": "top",
+            "api": "top",
+            "apiReference": "parentCompanies"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Business Model Classification",
+        "filters": [
+          {
+            "filterName": "Industry Classification",
+            "isDefault": true,
+            "filterType": "Sector",
+            "api": "bm_sector,bm_tree",
+            "apiReference": "industryClassification"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Location",
+        "filters": [
+          {
+            "filterName": "Headquarters Location",
+            "isDefault": true,
+            "filterType": "Headquarters",
+            "api": "headquarter,location",
+            "apiReference": "headquartersLocation"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Financials",
+        "filters": [
+          {
+            "filterName": "Has Financials",
+            "isDefault": true,
+            "filterType": "multi_select_values",
+            "api": "static",
+            "apiReference": "hasFinancials"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Scale",
+    "subGroups": [
+      {
+        "subGroupName": "Acquisition Info",
+        "filters": [
+          {
+            "filterName": "Acquisition Price",
+            "isDefault": false,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "acquisitionPrice"
+          },
+          {
+            "filterName": "Acquired By",
+            "isDefault": false,
+            "filterType": "top",
+            "api": "top",
+            "apiReference": "acquiredBy"
+          },
+          {
+            "filterName": "Acquisition Date",
+            "isDefault": false,
+            "filterType": "graph_year",
+            "api": "range",
+            "apiReference": "acquisitionDate"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Company Details",
+        "filters": [
+          {
+            "filterName": "PE Valuation",
+            "isDefault": true,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "postMoneyValuation"
+          },
+          {
+            "filterName": "Market Cap",
+            "isDefault": true,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "latestMarketCap"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Profit And Loss",
+        "filters": [
+          {
+            "filterName": "Annual Revenue",
+            "isDefault": true,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "annualRevenue"
+          },
+          {
+            "filterName": "Net Sales",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "netSales"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Balance Sheet",
+        "filters": [
+          {
+            "filterName": "Net Worth",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "netWorth"
+          },
+          {
+            "filterName": "Net Block",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "netBlock"
+          },
+          {
+            "filterName": "Total Current Assets",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "totalCurrentAssets"
+          },
+          {
+            "filterName": "Long Term Borrowings",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "longTermBorrowings"
+          },
+          {
+            "filterName": "Short Term Borrowings",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "shortTermBorrowings"
+          },
+          {
+            "filterName": "Current Liabilities",
+            "isDefault": false,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "totalCurrentLiabilities"
+          },
+          {
+            "filterName": "Total Assets",
+            "isDefault": true,
+            "filterType": "graph_financial",
+            "api": "range",
+            "apiReference": "totalAssets"
+          }
+        ]
+      },
+      {
+        "SubGroupName": "Investment Information",
+        "filters": [
+          {
+            "filterName": "Total Equity Funding Raised",
+            "isDefault": true,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "totalEquityFundingRaised"
+          },
+          {
+            "filterName": "Last Equity Funding Raised",
+            "isDefault": true,
+            "filterType": "graph",
+            "api": "range",
+            "apiReference": "lastEquityFundingRaised"
+          },
+          {
+            "filterName": "Date of Last Funding",
+            "isDefault": false,
+            "filterType": "graph_year",
+            "api": "range",
+            "apiReference": "dateOfLastFunding"
+          },
+          {
+            "filterName": "Transactions Count",
+            "isDefault": true,
+            "filterType": "graph_transaction",
+            "api": "range",
+            "apiReference": "dealCount"
+          },
+          {
+            "filterName": "Transactions Value",
+            "isDefault": true,
+            "filterType": "graph_transaction",
+            "api": "range",
+            "apiReference": "dealValue"
+          },
+          {
+            "filterName": "Transactions Date",
+            "isDefault": true,
+            "filterType": "graph_year_transaction",
+            "api": "range",
+            "apiReference": "dealDate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Progression",
+    "subGroups": [
+      {
+        "subGroupName": "Financials",
+        "subCategories": [
+          {
+            "subCategoryName": "Profit And Loss",
+            "filters": [
+              {
+                "filterName": "EBITDA CAGR",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "ebitdaCAGR",
+                "api": "growth"
+              },
+              {
+                "filterName": "Revenue Growth",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "revenueGrowthYoY",
+                "api": "growth"
+              },
+              {
+                "filterName": "Revenue CAGR",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "revenueCAGR",
+                "api": "growth"
+              },
+              {
+                "filterName": "PAT CAGR",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "netProfitCAGR",
+                "api": "growth"
+              },
+              {
+                "filterName": "EBITDA Growth",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "ebitdaGrowthYoY",
+                "api": "growth"
+              },
+              {
+                "filterName": "PAT Growth",
+                "isDefault": true,
+                "filterType": "graph_financial_growth",
+                "apiReference": "netProfitGrowthYoY",
+                "api": "growth"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Proficiency",
+    "subGroups": [
+      {
+        "subGroupName": "Financials",
+        "subCategories": [
+          {
+            "subCategoryName": "Balance Sheet",
+            "filters": [
+              {
+                "filterName": "Working Capital",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "workingCapital",
+                "api": "range"
+              },
+              {
+                "filterName": "Reserves and Surplus",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "reservesSurplus",
+                "api": "range"
+              },
+              {
+                "filterName": "Total Debt",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "totalDebt",
+                "api": "range"
+              }
+            ]
+          },
+          {
+            "subCategoryName": "Profit And Loss",
+            "filters": [
+              {
+                "filterName": "EBITDA",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "ebitda",
+                "api": "range"
+              },
+              {
+                "filterName": "EBITDA Margin",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "ebitdaMargin",
+                "api": "range"
+              },
+              {
+                "filterName": "EBIT",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "ebit",
+                "api": "range"
+              },
+              {
+                "filterName": "PBT",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "pbt",
+                "api": "range"
+              },
+              {
+                "filterName": "PAT",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "netProfit",
+                "api": "range"
+              },
+              {
+                "filterName": "PAT Margin",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "netProfitMargin",
+                "api": "range"
+              },
+              {
+                "filterName": "Operating Margin",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "operatingMargin",
+                "api": "range"
+              },
+              {
+                "filterName": "Gross Margin",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "grossMargin",
+                "api": "range"
+              }
+            ]
+          },
+          {
+            "subCategoryName": "Cash Flow",
+            "filters": [
+              {
+                "filterName": "Operations Cash Flow",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "cashFlowFromOperations",
+                "api": "range"
+              },
+              {
+                "filterName": "Investing Cash Flow",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "cashFlowFromInvesting",
+                "api": "range"
+              },
+              {
+                "filterName": "Financing Cash Flow",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "cashFlowFromFinancing",
+                "api": "range"
+              },
+              {
+                "filterName": "Net Cash Flow",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "netCashFlow",
+                "api": "range"
+              }
+            ]
+          },
+          {
+            "subCategoryName": "RATIOS",
+            "filters": [
+              {
+                "filterName": "Debt to Equity Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "debtEquity",
+                "api": "range"
+              },
+              {
+                "filterName": "Current Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "currentRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "ROCE",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "roce",
+                "api": "range"
+              },
+              {
+                "filterName": "RONW",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "ronw",
+                "api": "range"
+              },
+              {
+                "filterName": "Debt to EBITDA ratio",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "debtToEbitdaRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "Net Cash Flow to Equity",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "netCashFlowToEquity",
+                "api": "range"
+              },
+              {
+                "filterName": "P/B Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "pbRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "EV/EBITDA Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "evToEbitdaRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "Cash Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "cashRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "EPS",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "epsBasic",
+                "api": "range"
+              },
+              {
+                "filterName": "Inventory Turnover Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "inventoryTurnoverRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "Quick Ratio",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "quickRatio",
+                "api": "range"
+              },
+              {
+                "filterName": "ROA",
+                "isDefault": true,
+                "filterType": "graph_financial",
+                "apiReference": "roa",
+                "api": "range"
+              },
+              {
+                "filterName": "ROE",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "roe",
+                "api": "range"
+              },
+              {
+                "filterName": "EV/Revenue",
+                "isDefault": false,
+                "filterType": "graph_financial",
+                "apiReference": "evToRevenueRatio",
+                "api": "range"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Governance",
+    "subGroups": [
+      {
+        "subGroupName": "Investment Information",
+        "filters": [
+          {
+            "filterName": "Investor Type",
+            "isDefault": false,
+            "filterType": "multi_select_values",
+            "api": "multi_select_values",
+            "apiReference": "entityType"
+          },
+          {
+            "filterName": "Investor Name",
+            "isDefault": true,
+            "filterType": "top",
+            "api": "top",
+            "apiReference": "investorInfo.investorName"
+          },
+          {
+            "filterName": "Investor Headquarters",
+            "isDefault": false,
+            "filterType": "Headquarters",
+            "api": "headquarter/investor,location",
+            "apiReference": "investorInfo.investorHeadquarters"
+          }
+        ]
+      }
+    ]
+  }
+]

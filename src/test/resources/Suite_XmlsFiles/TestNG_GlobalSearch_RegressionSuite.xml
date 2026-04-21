@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Global Search Regression Suite" parallel="tests" thread-count="8">
+<parameter name="suiteName" value="regression"/>
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Global Search Tests">
+        <classes>
+            <class name="tests.Test_GlobalSearch"/>
+        </classes>
+    </test>
+
+</suite>

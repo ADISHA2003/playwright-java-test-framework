@@ -1,0 +1,19 @@
+{
+    "testCase200":{
+  "requests": [
+      {
+          "dataTableType": "COMPANIES",
+          "screenerRequest": {},
+          "dataTableRequest": {
+              "request": [],
+              "page": 0,
+              "size": 20,
+              "currencyType": "INR",
+              "numberScale": "CRORE",
+              "sortBy": "overallScore",
+              "orderBy": "DESC"
+          }
+      }
+  ],
+  "userId": null
+}}

@@ -1,0 +1,7 @@
+ <suite name="CompanyBmSector">
+    <test name="CompanyBmSector">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.BmSectorScreening_Test"/>
+        </classes>
+    </test>
+</suite>

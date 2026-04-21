@@ -1,0 +1,10 @@
+<suite name="Master GlobalSearch Suite" parallel = "suites" thread-count="3">
+    <groups>
+        <run>
+            <include name="HealthCheck"/>
+        </run>
+    </groups>
+    <suite-files>
+        <suite-file path="../GlobalSearch/TestNG_AllApi_GlobalService.xml"/>
+    </suite-files>
+</suite>

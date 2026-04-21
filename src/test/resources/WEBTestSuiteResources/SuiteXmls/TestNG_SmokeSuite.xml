@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name="Test_Screener_Landing">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Landing"/>
+        </classes>
+    </test>
+    <test name="Bookmark From Detail Page">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Detail_Page"/>
+        </classes>
+    </test>
+    <test name="Bookmark From Global Search">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_GlobalSearch"/>
+        </classes>
+    </test>
+    <test name="Bookmark From Screener">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Screener"/>
+        </classes>
+    </test>
+    <test name="Test_Data_Table_Export">
+        <classes>
+            <class name="tests.Test_Data_Table_Export"/>
+        </classes>
+    </test>
+    <test name="Test_Entity_Export">
+        <classes>
+            <class name="tests.Test_Entity_Export"/>
+        </classes>
+    </test>
+    <test name="Test_LeftNavOverlay">
+        <classes>
+            <class name="tests.Test_LeftNavOverlay"/>
+        </classes>
+    </test>
+    <test name="Test_Screener_Filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Filters"/>
+        </classes>
+    </test>
+    <test name="Test_Screener_ViewResults_Section">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_ViewResults_Section"/>
+        </classes>
+    </test>
+    <test name="my list">
+        <classes>
+            <class name="tests.Test_My_List"/>
+        </classes>
+    </test>
+
+    <!--        <suite-files>-->
+    <!--            <suite-file path="TestNG_GlobalSearch.xml"/>-->
+    <!--            <suite-file path="TestNG_KeyDevelopments.xml"/>-->
+    <!--            <suite-file path="TestNG_Login.xml"/>-->
+    <!--            <suite-file path="Test_CompanyScreener.xml"/>-->
+    <!--        </suite-files>-->
+</suite>

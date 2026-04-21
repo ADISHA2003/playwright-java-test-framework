@@ -1,0 +1,53 @@
+{
+  "testCase200": {
+    "requests": [
+      {
+        "dataTableType": "INVESTORS",
+        "screenerRequest": {},
+        "dataTableRequest": {
+          "request": [],
+          "page": 0,
+          "size": 100,
+          "currencyType": "INR",
+          "numberScale": "CRORE",
+          "sortBy": "assetUnderManagement.amount",
+          "orderBy": "DESC"
+        }
+      },
+      {
+        "dataTableType": "COMPANIES",
+        "dataTableRequest": {
+          "request": [],
+          "search": {
+            "searchText": "dat",
+            "columns": [
+              "companyName",
+              "investorInfo.investorName",
+              "contact.city",
+              "contact.country",
+              "companyType",
+              "companyStatus",
+              "taxonomy.sector",
+              "taxonomy.industry",
+              "taxonomy",
+              "taxonomy.subIndustry",
+              "dba",
+              "roundOfInvestment",
+              "customDescription",
+              "valuationClass",
+              "latestFinancialData.revenueCAGR",
+              "latestFinancialData.ebitdaCAGR"
+            ]
+          },
+          "page": 0,
+          "size": 20,
+          "currencyType": "INR",
+          "numberScale": "CRORE",
+          "sortBy": "overallScore",
+          "orderBy": "DESC"
+        }
+      }
+    ],
+    "userId": null
+  }
+}

@@ -1,0 +1,7 @@
+ <suite name=Dashboard_onBoarding>
+    <test name=Dashboard_onBoarding>
+        <classes>
+            <class name="APITestSuite.Dashboard_onBoarding_Test"/>
+        </classes>
+    </test>
+</suite>

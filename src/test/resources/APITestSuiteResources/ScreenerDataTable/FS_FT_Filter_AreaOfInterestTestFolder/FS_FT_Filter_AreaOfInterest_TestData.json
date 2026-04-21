@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+  {"requests":[{"dataTableType":"INVESTORS","screenerRequest":{},"dataTableRequest":{}}],"filterData":{"dataTableType":"INVESTORS","filterName":"areaOfInterest"}}
+}

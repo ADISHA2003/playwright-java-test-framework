@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+  {"requests":[{"dataTableType":"COMPANIES","screenerRequest":{},"dataTableRequest":{"request":[{"fieldName":"id","componentName":"TEXT","queryType":"NOT_IN","values":["666ec9f213d72d46feaa4877","666e99a5499bf94d6f71916c"],"condition":"&&","includeBlanks":true}],"page":0,"size":20,"currencyType":"INR","numberScale":"CRORE","sortBy":"overallScore","orderBy":"DESC"}}],"filterData":{"dataTableType":"DEALS","filterName":"buyers"}}
+}

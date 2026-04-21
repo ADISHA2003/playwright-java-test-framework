@@ -1,0 +1,7 @@
+ <suite name="OfferingSegmentation">
+    <test name="OfferingSegmentation">
+        <classes>
+            <class name="APITestSuite.Deals.OfferingSegmentation_Test"/>
+        </classes>
+    </test>
+</suite>

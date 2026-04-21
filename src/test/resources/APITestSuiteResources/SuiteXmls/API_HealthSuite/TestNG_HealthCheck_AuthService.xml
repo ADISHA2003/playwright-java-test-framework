@@ -1,0 +1,10 @@
+<suite name="Auth API Health Suite" parallel=" suites" thread-count="3">
+    <groups>
+        <run>
+            <include name="HealthCheck"/>
+        </run>
+    </groups>
+   <suiteFiles>
+        <suite-file path="../Login/TestNG_Login.xml"/>
+    </suiteFiles>
+</suite>

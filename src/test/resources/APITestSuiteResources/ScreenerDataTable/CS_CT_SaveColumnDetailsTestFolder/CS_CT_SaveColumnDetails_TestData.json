@@ -1,0 +1,126 @@
+{
+    "testCase200":{
+  "type": "DataTable",
+  "for": "Company Screener",
+  "tableName": "Company",
+  "recordsPerPage": 20,
+  "columns": [
+      {
+          "uniqueId": "Company_Name",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Trade_Name",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Edge_Score",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Company_Type",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Founded_Year",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "City",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Company_Stage",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Sub_Industry",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Business_Model",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Total_Equity_Funding_Raised",
+          "isSelected": true
+      },
+      {
+          "uniqueId": "Latest_PE_Valuation",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Latest_Annual_Revenue",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Country",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Sector",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Industry",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Company_Status",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Latest_Market_Cap",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Employee_Count",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Net_Profit_Margin",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "EBITDA",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Description",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Valuation_Class",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Revenue_CAGR",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "EBITDA_CAGR",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "EBITDA_Margin",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Gross_Profit_Margin",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Net_Profit",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "No_of_Investors",
+          "isSelected": false
+      },
+      {
+          "uniqueId": "Investors_Name",
+          "isSelected": false
+      }
+  ]
+}
+}

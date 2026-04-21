@@ -1,0 +1,7 @@
+ <suite name=DashboardTopKeyDev>
+    <test name=DashboardTopKeyDev>
+        <classes>
+            <class name="APITestSuite.DashboardTopKeyDev_Test"/>
+        </classes>
+    </test>
+</suite>

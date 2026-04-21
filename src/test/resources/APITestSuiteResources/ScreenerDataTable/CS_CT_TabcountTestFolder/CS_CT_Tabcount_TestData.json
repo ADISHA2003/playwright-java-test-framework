@@ -1,0 +1,14 @@
+{
+    "testCase200": {
+  "requests": [
+      {
+          "dataTableType": "COMPANIES",
+          "screenerRequest": {},
+          "dataTableRequest": {
+              "request": []
+          }
+      }
+  ],
+  "userId": null
+}
+}

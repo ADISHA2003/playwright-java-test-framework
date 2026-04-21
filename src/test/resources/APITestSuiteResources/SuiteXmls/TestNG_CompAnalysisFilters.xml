@@ -1,0 +1,7 @@
+ <suite name=CompAnalysisFilters>
+    <test name=CompAnalysisFilters>
+        <classes>
+            <class name="APITestSuite.CompAnalysis.CompAnalysisCompanySearch_Test"/>
+        </classes>
+    </test>
+</suite>

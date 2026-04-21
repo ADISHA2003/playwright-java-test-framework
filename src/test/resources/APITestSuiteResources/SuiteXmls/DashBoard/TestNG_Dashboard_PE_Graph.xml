@@ -1,0 +1,7 @@
+ <suite name=Dashboard_PE_Graph>
+    <test name=Dashboard_PE_Graph>
+        <classes>
+            <class name="APITestSuite.Dashboard_PE_Graph_Test"/>
+        </classes>
+    </test>
+</suite>

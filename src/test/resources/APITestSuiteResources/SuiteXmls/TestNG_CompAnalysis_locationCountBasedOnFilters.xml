@@ -1,0 +1,7 @@
+ <suite name=CompAnalysis_locationCountBasedOnFilters>
+    <test name=CompAnalysis_locationCountBasedOnFilters>
+        <classes>
+            <class name="APITestSuite.CompAnalysis.CompAnalysis_locationCountBasedOnFilters_Test"/>
+        </classes>
+    </test>
+</suite>

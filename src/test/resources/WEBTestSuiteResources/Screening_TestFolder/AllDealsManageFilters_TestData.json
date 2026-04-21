@@ -1,0 +1,128 @@
+[
+  {
+    "groupName": "Deal Information",
+    "filters": [
+      {
+        "filterName": "Keyword Search",
+        "isDefault": true,
+		"filterType": "keyword_search",
+		"api": "all-deals/top",
+		"apiReference": "keywords"
+      },
+      {
+        "filterName": "Deal Type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "all-deals/multi_select_values",
+		"apiReference": "transactionType"
+      },
+      {
+        "filterName": "Transaction Announced Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "all-deals/range",
+		"apiReference": "announcementDate"
+		
+      },
+      {
+        "filterName": "Transaction Closing Date",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "all-deals/range",
+		"apiReference": "closingDate"
+      },
+      {
+        "filterName": "Deal value",
+        "isDefault": true,
+		"filterType": "graph",
+		"api": "all-deals/range",
+		"apiReference": "dealValue"
+      }
+    ]
+  },
+  {
+    "groupName": "Buyer",
+    "filters": [
+      {
+        "filterName": "Buyer name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "all-deals/top",
+		"apiReference": "Buyer"
+      }
+    ]
+  },
+  {
+    "groupName": "Seller",
+    "filters": [
+      {
+        "filterName": "Seller name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "all-deals/top",
+		"apiReference": "Seller"
+      }
+    ]
+  },
+  {
+    "groupName": "Facilitators",
+    "filters": [
+      {
+        "filterName": "Investment Banks",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "all-deals/top",
+		"apiReference": "investmentBanks.name"
+      },
+      {
+        "filterName": "Law Firms",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "all-deals/top",
+		"apiReference": "legalAdvisors.name"
+      }
+    ]
+  },
+  {
+    "groupName": "Target company",
+    "filters": [
+      {
+        "filterName": "Company name",
+        "isDefault": true,
+		"filterType": "top",
+		"api": "all-deals/top",
+		"apiReference": "targetCompanyInfo.companyName"
+		
+      },
+      {
+        "filterName": "Company type",
+        "isDefault": true,
+		"filterType": "multi_select_values",
+		"api": "all-deals/multi_select_values",
+		"apiReference": "targetCompanyInfo.companyType"
+      },
+      {
+        "filterName": "Founded Year",
+        "isDefault": true,
+		"filterType": "graph_year",
+		"api": "all-deals/range",
+		"apiReference": "targetCompanyInfo.foundedYear"
+		
+      },
+      {
+        "filterName": "Location",
+        "isDefault": true,
+		"filterType": "headquarter",
+		"api": "all-deals/headquarter",
+		"apiReference": "targetCompanyInfo.contact"
+      },
+      {
+        "filterName": "Industry Classification",
+        "isDefault": true,
+		"filterType": "BusinessModel",
+		"api": "all-deals/bm_sectors",
+		"apiReference": "targetCompanyInfo.taxonomy"
+      }
+    ]
+  }
+]

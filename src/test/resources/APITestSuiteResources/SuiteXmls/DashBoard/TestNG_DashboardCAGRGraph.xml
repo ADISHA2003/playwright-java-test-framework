@@ -1,0 +1,7 @@
+ <suite name=DashboardCAGRGraph>
+    <test name=DashboardCAGRGraph>
+        <classes>
+            <class name="APITestSuite.DashboardCAGRGraph_Test"/>
+        </classes>
+    </test>
+</suite>

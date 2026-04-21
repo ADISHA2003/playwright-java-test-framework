@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Left Navigation Regression Suite" parallel="tests" thread-count="8">
+<parameter name="suiteName" value="regression"/>
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Left Navigation Tests">
+        <classes>
+            <class name="tests.Test_LeftNavOverlay"/>
+        </classes>
+    </test>
+</suite>

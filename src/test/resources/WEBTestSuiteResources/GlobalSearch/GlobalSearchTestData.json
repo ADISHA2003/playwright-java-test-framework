@@ -1,0 +1,42 @@
+{
+  "test_count": {
+    "name": "Swiggy",
+    "categoriesState": {
+      "All": "active",
+      "Companies": "not active",
+      "Investors": "not active",
+      "Professionals": "not active",
+      "Funds": "disabled",
+      "Service Providers": "disabled",
+      "Reports": "disabled"
+    },
+    "count": {
+      "All": "41",
+      "Companies": "3",
+      "Investors": "1",
+      "Professionals": "37",
+      "Service Provider": "0",
+      "Funds": "0",
+      "Report": "0",
+      "Documents": "0"
+    },
+    "categorySectionCount": {
+      "Companies": "3",
+      "Investors": "1"
+    }
+  },
+
+  "test_count2": {
+    "name": "tata",
+    "categoriesState": {
+      "All": "active",
+      "Companies": "not active",
+      "Investors": "not active",
+      "Professionals": "not active",
+      "Funds": "not active",
+      "Service Providers": "not active",
+      "Reports": "disabled",
+      "Documents": "not active"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+ <suite name="KEY_FINANCIALS">
+    <test name="KEY_FINANCIALS">
+        <classes>
+            <class name="APITestSuite.CompanyDetails.KEY_FINANCIALS_Test"/>
+        </classes>
+    </test>
+</suite>

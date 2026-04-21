@@ -1,0 +1,7 @@
+ <suite name="DealFinancials&consideration">
+    <test name="DealFinancials&consideration">
+        <classes>
+            <class name="APITestSuite.Deals.DealFinancials&consideration_Test"/>
+        </classes>
+    </test>
+</suite>

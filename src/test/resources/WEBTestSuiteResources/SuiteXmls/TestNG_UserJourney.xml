@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User Journey Suite">
+
+    <test name="User Journey basic navigation on all components">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes >
+            <class name="WebTestSuite.FeatureTests.UserJourney.Test_UserJourney_1"/>
+        </classes>
+    </test>

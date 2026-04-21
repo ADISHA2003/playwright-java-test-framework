@@ -1,0 +1,7 @@
+ <suite name=DashboardCoverage>
+    <test name=DashboardCoverage>
+        <classes>
+            <class name="APITestSuite.DashboardCoverage_Test"/>
+        </classes>
+    </test>
+</suite>

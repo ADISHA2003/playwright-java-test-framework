@@ -1,0 +1,12 @@
+type,mongoCollection,mongoField,mongoCondition,mongoScreenerCollection,screenerCondition,mongoScreenerField,mongo_value,mongoId
+public,company,companyType,eq,companySourcing,eq,companyType,Public Company,companyId
+private,company,companyType,eq,companySourcing,eq,companyType,Private Company,companyId
+x-corn,company,profile.valuationClass,ex,companySourcing,ex,profile.valuationClass,true,companyId
+education,company,companyType,eq,companySourcing,eq,companyType,Education Institution,companyId
+trust,company,companyType,eq,companySourcing,eq,companyType,Trust,companyId
+non gov orgs,company,companyType,eq,companySourcing,eq,companyType,Non-government organization,companyId
+private investment firms as company,company,companyType,eq,companySourcing,eq,companyType,Private Investment Firm,companyId
+govt insititutions,company,companyType,eq,companySourcing,eq,companyType,Government Institution,companyId
+public investment firms as company,company,companyType,eq,companySourcing,eq,companyType,Public Investment Firm,companyId
+charitable trust,company,companyType,eq,companySourcing,eq,companyType,Charitable Trust,companyId
+foundation,company,companyType,eq,companySourcing,eq,companyType,Foundation,companyId

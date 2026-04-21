@@ -1,0 +1,103 @@
+[
+  {
+    "tabName" : "Limited Partner",
+    "filters": [
+      { "filterName": "LP Name", "defaultFlag": true },
+      { "filterName": "LP Type", "defaultFlag": true },
+      { "filterName": "Total Commited Capital $mn", "defaultFlag": true },
+      { "filterName": "HQ Location", "defaultFlag": true },
+      { "filterName": "Fund Preference", "defaultFlag": true },
+      { "filterName": "Area of Interest", "defaultFlag": true },
+      { "filterName": "Commitments", "defaultFlag": true },
+
+      { "filterName": "Fund Focus", "defaultFlag": false },
+      { "filterName": "Fund Target Size", "defaultFlag": false },
+      { "filterName": "Investment Type", "defaultFlag": false },
+      { "filterName": "Fund Type", "defaultFlag": false },
+      { "filterName": "Asset Manager", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Funds",
+    "filters": [
+      { "filterName": "Fund Name", "defaultFlag": true },
+      { "filterName": "Investor (LP)", "defaultFlag": true },
+      { "filterName": "Fund Type", "defaultFlag": true },
+      { "filterName": "Fund Status", "defaultFlag": true },
+      { "filterName": "Asset Manager", "defaultFlag": true },
+      { "filterName": "Fund Size", "defaultFlag": true },
+      { "filterName": "Amount Raised", "defaultFlag": true },
+      { "filterName": "Area of Interest", "defaultFlag": true },
+      { "filterName": "Current Investments", "defaultFlag": true },
+
+      { "filterName": "Investor Type", "defaultFlag": false },
+      { "filterName": "Launched Date", "defaultFlag": false },
+      { "filterName": "HQ Location", "defaultFlag": false },
+      { "filterName": "Fund Raising Stage", "defaultFlag": false },
+      { "filterName": "Fund Raising Stage Date", "defaultFlag": false },
+      { "filterName": "Dry Powder", "defaultFlag": false },
+      { "filterName": "Focus", "defaultFlag": false },
+      { "filterName": "Geographical Preference", "defaultFlag": false },
+      { "filterName": "Investment Type", "defaultFlag": false },
+      { "filterName": "Investment Size (Min) $mn", "defaultFlag": false },
+      { "filterName": "Investment Size (Max) $mn", "defaultFlag": false },
+      { "filterName": "Prior Investments", "defaultFlag": false },
+      { "filterName": "#Deals in last 12 months", "defaultFlag": false },
+      { "filterName": "Total Investment", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Companies",
+    "filters": [
+      { "filterName": "Company Name", "defaultFlag": true },
+      { "filterName": "Investor (Fund)", "defaultFlag": true },
+      { "filterName": "City", "defaultFlag": true },
+      { "filterName": "Country", "defaultFlag": true },
+      { "filterName": "Type", "defaultFlag": true },
+      { "filterName": "Status", "defaultFlag": true },
+      { "filterName": "Year Founded", "defaultFlag": true },
+      { "filterName": "Sector", "defaultFlag": true },
+      { "filterName": "Industry", "defaultFlag": true },
+      { "filterName": "Business Model", "defaultFlag": true },
+
+      { "filterName": "Company Stage", "defaultFlag": false },
+      { "filterName": "Sub-Industry", "defaultFlag": false },
+      { "filterName": "Trade Name", "defaultFlag": false },
+      { "filterName": "Edge Score", "defaultFlag": false },
+      { "filterName": "Total Equity Funding Raised", "defaultFlag": false },
+      { "filterName": "Latest PE Valuation", "defaultFlag": false },
+      { "filterName": "Annual Revenue", "defaultFlag": false },
+      { "filterName": "Latest Market Cap", "defaultFlag": false },
+      { "filterName": "Employee Count", "defaultFlag": false },
+      { "filterName": "PAT Margin", "defaultFlag": false },
+      { "filterName": "EBITDA", "defaultFlag": false },
+      { "filterName": "Description", "defaultFlag": false },
+      { "filterName": "Valuation Class", "defaultFlag": false },
+      { "filterName": "Revenue CAGR", "defaultFlag": false },
+      { "filterName": "EBITDA CAGR", "defaultFlag": false },
+      { "filterName": "EBITDA Margin", "defaultFlag": false },
+      { "filterName": "Gross Profit Margin", "defaultFlag": false },
+      { "filterName": "Net Profit", "defaultFlag": false },
+      { "filterName": "No of Investors", "defaultFlag": false },
+      { "filterName": "Net Sales", "defaultFlag": false },
+      { "filterName": "Net Worth", "defaultFlag": false },
+      { "filterName": "EV/EBITDA", "defaultFlag": false },
+      { "filterName": "EV/Revenue", "defaultFlag": false },
+      { "filterName": "Website", "defaultFlag": false },
+      { "filterName": "Parent Company", "defaultFlag": false },
+      { "filterName": "Previous Names", "defaultFlag": false },
+      { "filterName": "Subsidiaries", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Professionals",
+    "filters": [
+      { "filterName": "Name", "defaultFlag": true },
+      { "filterName": "Phone", "defaultFlag": true },
+      { "filterName": "Email", "defaultFlag": true },
+      { "filterName": "Firm Name", "defaultFlag": true },
+      { "filterName": "Designation", "defaultFlag": true },
+      { "filterName": "Contact", "defaultFlag": true }
+    ]
+  }
+]

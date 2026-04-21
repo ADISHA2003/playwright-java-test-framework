@@ -1,0 +1,7 @@
+ <suite name="Login Suite" parallel="methods" thread-count="3">
+    <test name="Login 200 status check">
+        <classes>
+            <class name="APITestSuite.Login.Login_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+ <suite name=GlobalSearch_SuggestedQueries>
+    <test name=GlobalSearch_SuggestedQueries>
+        <classes>
+            <class name="APITestSuite.GlobalSearch.GlobalSearch_SuggestedQueries_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+type,sql_table,columnName,sql_condition,mongo_collection,condition,mongo_field,mongo_value
+public,company,*,where companyTypeId=8,company,eq,companyType,Public Company
+private,company,*,where companyTypeId=6,company,eq,companyType,Private Company
+x-corn,company,,where valuation_class !=0,company,ex,profile.valuationClass,true
+PE Funds (issue),company,,"where companytypeid in (3,5,7,9,60) and mother_child_fund =""Child Fund""",fund,,shortDescription,Private Equity Fund
+Limited Partners,company,,where directoryfeature=298,investor,eq,profile.directoryFeature,Limited Partner
+Incubators,company,,where directoryfeature=270,investor,,profile.directoryFeature,Incubator
+Angel Investors,angel_relations,distinct(professional_id),,professional,bool,angelFlag,true
+Private Equity,transactions,,where transactiontype=34,transactions,eq,transactionType,Private Equity Investment
+PE Exits,private_equity_exits,,,privateEquityExits,ex,privateEquityExitId,true
+Debt issues,transactions,,where transactiontype =36,transactions,eq,transactionType,Debt Issue
+Merger and Acquisition,transactions,,where transactiontype =33,transactions,eq,transactionType,Merger and Acquisition
+Public offerings(logic Imp),company,,where companyTypeId=6,company,,companyType,Private Company
+Investment Banks,company,,where directoryfeature=19,company,eq,profile.directoryFeature,Investment Banker
+Auditors,company,,where directoryfeature=20,company,,profile.directoryFeature,Accountant
+Law Firms,company,,where directoryfeature=21,company,eq,profile.directoryFeature,Legal Adviser
+Professionals,professional,,,professional,ex,professionalId,true
+Key Developments,key_event_details,,,keyEventDetails,ex,keyEventId,true
+Documents,document_access_table,,,DocumentAccessTableMongoDb,ex,documentId,true

@@ -1,0 +1,7 @@
+ <suite name=DashboardLeagueInfoGraph>
+    <test name=DashboardLeagueInfoGraph>
+        <classes>
+            <class name="APITestSuite.DashboardLeagueInfoGraph_Test"/>
+        </classes>
+    </test>
+</suite>

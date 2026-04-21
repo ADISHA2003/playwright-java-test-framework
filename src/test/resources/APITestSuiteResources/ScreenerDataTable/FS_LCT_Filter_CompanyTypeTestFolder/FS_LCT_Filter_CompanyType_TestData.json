@@ -1,0 +1,4 @@
+{
+  "testCase200": 
+  {"requests":[{"dataTableType":"COMPANIES","screenerRequest":{},"dataTableRequest":{"request":[],"page":0,"size":100,"currencyType":"INR","numberScale":"CRORE","sortBy":"assetUnderManagement.amount","orderBy":"DESC"}}],"filterData":{"dataTableType":"COMPANIES","filterName":"companyType"}}
+}

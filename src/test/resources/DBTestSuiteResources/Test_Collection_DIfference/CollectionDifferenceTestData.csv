@@ -1,0 +1,25 @@
+type,sql_table,columnName,sql_condition,mongo_collection,condition,mongo_field,mongo_value,mongoId
+public,company,companyid,where companyTypeId=8,company,eq,companyType,Public Company,companyId
+private,company,companyid,where companyTypeId=6,company,eq,companyType,Private Company,companyId
+x-corn,company,companyid,where valuation_class !=0,company,ex,profile.valuationClass,true,companyId
+education,company,companyid,where companyTypeId=4,company,eq,companyType,Education Institution,companyId
+trust,company,companyid,where companyTypeId=198,company,eq,companyType,Trust,companyId
+non gov orgs,company,companyid,where companyTypeId=197,company,eq,companyType,Non-government organization,companyId
+private investment firms as company,company,companyid,where companyTypeId=7,company,eq,companyType,Private Investment Firm,companyId
+govt insititutions,company,companyid,where companyTypeId=195,company,eq,companyType,Government Institution,companyId
+public investment firms as company,company,companyid,where companyTypeId=9,company,eq,companyType,Public Investment Firm,companyId
+charitable trust,company,companyid,where companyTypeId=2,company,eq,companyType,Charitable Trust,companyId
+foundation,company,companyid,where companyTypeId=196,company,eq,companyType,Foundation,companyId
+asset business unit,company,companyid,where companyTypeId=1,company,eq,companyType,Asset/Business Unit,companyId
+private equity fund as investor,company,companyid,where companyTypeId=60,investor,eq,companyType,Private Equity Fund,companyId
+asset manager,company,companyid,"where mother_child_fund=""mother fund""",investor,ex,companyId,true,companyId
+fund,company,companyid,"where companytypeid  in (3,5,7,9,60) and mother_child_fund =""child fund""",fund,ex,companyId,true,companyId
+Limited Partners,company,companyid,where directoryfeature=298,investor,eq,profile.directoryFeature,Limited Partner,companyId
+Incubators,company,companyid,where directoryfeature=270,investor,,profile.directoryFeature,Incubator,companyId
+family offices,company,companyid,"where directoryfeature=377",investor,eq,profile.directoryFeature,Family Office,companyId
+angel_relations,distinct(professional_id),professionalId,,professional,bool,angelFlag,true,professionalId
+Investment Banks,company,companyid,where directoryfeature=19,investor,eq,profile.directoryFeature,Investment Banks,companyId
+Auditors,company,companyid,where directoryfeature=20,investor,eq,profile.directoryFeature,Limited Partner,companyId
+Law Firms,company,companyid,where directoryfeature=21,investor,eq,profile.directoryFeature,Limited Partner,companyId
+Investor Only In Company collection , company,companyid,"where mother_child_fund=""mother fund"" and companytypeid in (3,5,7,9,60) or directoryfeature in (298,270,377)",company,nin,companyId,investor,companyId
+fund in company collection,company,companyid,"where companytypeid  in (3,5,7,9,60) and mother_child_fund =""child fund""",fund,nin,companyId,fund,companyId

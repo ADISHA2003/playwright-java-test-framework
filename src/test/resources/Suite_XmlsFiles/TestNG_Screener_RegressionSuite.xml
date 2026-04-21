@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Screener Regression Suite" parallel="tests" thread-count="8">
+<parameter name="suiteName" value="regression"/>
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Company Screener Tests">
+        <classes>
+            <class name="tests.TestCompanyScreener"/>
+        </classes>
+    </test>
+
+    <test name="Screener Multi Select Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_MultiSelect_Filters"/>
+        </classes>
+    </test>
+
+    <test name="Screener Top Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Top_Filters"/>
+        </classes>
+    </test>
+
+    <test name="Screener Location Filter Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Location_Filter"/>
+        </classes>
+    </test>
+
+    <test name="Screener Industry Classification Filter Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Industry_Classification_Filter"/>
+        </classes>
+    </test>
+
+    <test name="Screener Landing Page Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Landing"/>
+        </classes>
+    </test>
+
+    <test name="Screener Common Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Filters"/>
+        </classes>
+    </test>
+
+    <test name="Screener View Results Section Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_ViewResults_Section"/>
+        </classes>
+    </test>
+
+    <test name="Screener Graph Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Filter"/>
+        </classes>
+    </test>
+    
+    <test name="Screener Graph Financial Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Financial_Filter"/>
+        </classes>
+    </test>
+    
+    <test name="Screener Graph Financial Growth Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Financial_Growth_Filter"/>
+        </classes>
+    </test>
+    
+    <test name="Screener Graph Year Filters Tests">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Year_Filters"/>
+        </classes>
+    </test>
+</suite>

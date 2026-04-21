@@ -1,0 +1,7 @@
+ <suite name="BM_TreeCompanyScreening">
+    <test name="BM_TreeCompanyScreening">
+        <classes>
+            <class name="APITestSuite.CompanyScreener.BM_TreeScreening_Test"/>
+        </classes>
+    </test>
+</suite>

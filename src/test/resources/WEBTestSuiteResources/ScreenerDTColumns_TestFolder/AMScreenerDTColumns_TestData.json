@@ -1,0 +1,98 @@
+[
+  {
+    "tabName" : "Investors",
+    "filters": [
+      { "filterName": "Investor Name", "defaultFlag": true },
+      { "filterName": "Fund Type", "defaultFlag": true },
+      { "filterName": "HQ Location", "defaultFlag": true },
+      { "filterName": "AUM $mn", "defaultFlag": true },
+      { "filterName": "Area of Interest", "defaultFlag": true },
+      { "filterName": "Current Investments", "defaultFlag": true },
+      { "filterName": "#Deals in last 12 months", "defaultFlag": true },
+
+      { "filterName": "Geographical Preference", "defaultFlag": false },
+      { "filterName": "Investment Type", "defaultFlag": false },
+      { "filterName": "Prior Investments", "defaultFlag": false },
+      { "filterName": "Total Investment", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Companies",
+    "filters": [
+      { "filterName": "Company Name", "defaultFlag": true },
+      { "filterName": "Investors Name", "defaultFlag": true },
+      { "filterName": "City", "defaultFlag": true },
+      { "filterName": "Country", "defaultFlag": true },
+      { "filterName": "Company Type", "defaultFlag": true },
+      { "filterName": "Company Status", "defaultFlag": true },
+      { "filterName": "Founded Year", "defaultFlag": true },
+      { "filterName": "Sector", "defaultFlag": true },
+      { "filterName": "Industry", "defaultFlag": true },
+      { "filterName": "Business Model", "defaultFlag": true },
+
+      { "filterName": "Company Stage", "defaultFlag": false },
+      { "filterName": "Sub-Industry", "defaultFlag": false },
+      { "filterName": "Trade Name", "defaultFlag": false },
+      { "filterName": "Edge Score", "defaultFlag": false },
+      { "filterName": "Total Equity Funding Raised", "defaultFlag": false },
+      { "filterName": "Latest PE Valuation", "defaultFlag": false },
+      { "filterName": "Annual Revenue", "defaultFlag": false },
+      { "filterName": "Latest Market Cap", "defaultFlag": false },
+      { "filterName": "Employee Count", "defaultFlag": false },
+      { "filterName": "PAT Margin", "defaultFlag": false },
+      { "filterName": "EBITDA", "defaultFlag": false },
+      { "filterName": "Description", "defaultFlag": false },
+      { "filterName": "Valuation Class", "defaultFlag": false },
+      { "filterName": "Revenue CAGR", "defaultFlag": false },
+      { "filterName": "EBITDA CAGR", "defaultFlag": false },
+      { "filterName": "EBITDA Margin", "defaultFlag": false },
+      { "filterName": "Gross Profit Margin", "defaultFlag": false },
+      { "filterName": "Net Profit", "defaultFlag": false },
+      { "filterName": "No of Investors", "defaultFlag": false },
+      { "filterName": "Net Sales", "defaultFlag": false },
+      { "filterName": "Net Worth", "defaultFlag": false },
+      { "filterName": "EV/EBITDA", "defaultFlag": false },
+      { "filterName": "EV/Revenue", "defaultFlag": false },
+      { "filterName": "Website", "defaultFlag": false },
+      { "filterName": "Parent Company", "defaultFlag": false },
+      { "filterName": "Previous Names", "defaultFlag": false },
+      { "filterName": "Subsidiaries", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Deals",
+    "filters": [
+      { "filterName": "Deal Date", "defaultFlag": true },
+      { "filterName": "Target Company", "defaultFlag": true },
+      { "filterName": "Deal Description", "defaultFlag": true },
+      { "filterName": "Deal Type", "defaultFlag": true },
+      { "filterName": "Buyer/Lender", "defaultFlag": true },
+      { "filterName": "Seller/Borrower", "defaultFlag": true },
+      { "filterName": "Deal Value", "defaultFlag": true },
+
+      { "filterName": "Deal Subtype", "defaultFlag": false },
+      { "filterName": "Deal Feature", "defaultFlag": false },
+      { "filterName": "Deal Status", "defaultFlag": false },
+      { "filterName": "Transaction Announced Date", "defaultFlag": false },
+      { "filterName": "Transaction Closing Date", "defaultFlag": false },
+      { "filterName": "Cancelled Date", "defaultFlag": false },
+      { "filterName": "Deal Stage", "defaultFlag": false },
+      { "filterName": "Change in Control", "defaultFlag": false },
+      { "filterName": "% Sought", "defaultFlag": false },
+      { "filterName": "EV/Revenue", "defaultFlag": false },
+      { "filterName": "EV/EBITDA", "defaultFlag": false },
+      { "filterName": "EV/PAT", "defaultFlag": false }
+    ]
+  },
+  {
+    "tabName" : "Linked Professionals",
+    "filters": [
+      { "filterName": "Professionals Name", "defaultFlag": true },
+      { "filterName": "Phone", "defaultFlag": true },
+      { "filterName": "Email", "defaultFlag": true },
+      { "filterName": "Company Name", "defaultFlag": true },
+      { "filterName": "Designation", "defaultFlag": true },
+      { "filterName": "Contact", "defaultFlag": true }
+    ]
+  }
+]

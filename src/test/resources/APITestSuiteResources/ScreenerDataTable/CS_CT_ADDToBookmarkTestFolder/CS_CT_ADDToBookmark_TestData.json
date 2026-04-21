@@ -1,0 +1,13 @@
+{
+  "testCase200": {
+    "userId": "aabbcc",
+    "bookmarkType": "COMPANY",
+    "keyEventId": 1,
+    "bookmarkItemInput": {
+      "entityId": [
+        "666edc5a13d72d46feab2a36",
+        "666e71a583c167536f3b64e0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "testCase200":{
+    "companyId": "COMPANYID",
+    "reportView": "STANDARD",
+    "reportType": "TYPE",
+    "timePeriod": 3,
+    "statementInterval": "ANNUALLY",
+    "format": "FORMAT",
+    "currency": "CURRENCY",
+    "size": "default",
+    "filters": []
+  }
+}

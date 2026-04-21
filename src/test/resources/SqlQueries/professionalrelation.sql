@@ -1,0 +1,1 @@
+select p.*, c.companyname,p2.firstName  from professionalrelation p inner join company c on c.companyid = p.targetcompanyid inner join professional p2 on p2.professionalid = p.targetprofessionalid where p.professionalRelationId = professionalRelationId

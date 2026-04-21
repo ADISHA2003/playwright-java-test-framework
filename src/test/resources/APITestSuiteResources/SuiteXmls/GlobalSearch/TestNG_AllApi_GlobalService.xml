@@ -1,0 +1,22 @@
+<suite name="Global Search API SUITE"  parallel = "methods" thread-count="3">
+    <test name="Global Search saveRecentSearch status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_SaveRecentSearch_Test"/></classes></test>
+    <test name=" Global search addRecentVisited endpoint Status 200 Check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_addRecentVisited_Test"/></classes></test>
+    <test name="Global Search DeleteRecentSearch Status 200 Check">
+        <classes> <class name="APITestSuite.GlobalSearch.GlobalSearch_Delete_RecentSearch_Test"/></classes></test>
+    <test name="Global Search deleteRecentVisited Status 200 Check">
+        <classes> <class name="APITestSuite.GlobalSearch.GlobalSearch_deleteRecentVisited_Test"/></classes></test>
+    <test name="Global Search recentlyVisited status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_RecentlyVisited_Test"/></classes></test>
+    <test name="GlobalSearch recentSearch status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_RecentSearch_Test"/></classes></test>
+    <test name="Global Search API status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_Search_API_Test"/> </classes></test>
+    <test name="Global Search suggestedQueries status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.GlobalSearch_SuggestedQueries_Test"/> </classes></test>
+    <test name="NLP getRecentSearch status 200 check">
+        <classes><class name = "APITestSuite.GlobalSearch.NLP_getRecentSearch_Test"/></classes></test>
+    <test name="NLP search status 200 check">
+        <classes><class name="APITestSuite.GlobalSearch.NLP_Search_Test"/></classes></test>
+</suite>

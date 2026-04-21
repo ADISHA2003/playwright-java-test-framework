@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Data Table Validation Suite" parallel="false">
+    
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Data Table Export Validation">
+        <classes>
+            <class name="tests.Test_DT_Export_validation"/>
+        </classes>
+    </test>
+
+</suite>

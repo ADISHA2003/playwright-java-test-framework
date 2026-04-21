@@ -1,0 +1,6 @@
+<suite name="Master GlobalSearch Suite" parallel = "true">
+    <suite-files>
+
+        <suite-file path="../GlobalSearch/TestNG_Smoke_GlobalService.xml"/>
+    </suite-files>
+</suite>

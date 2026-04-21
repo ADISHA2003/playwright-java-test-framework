@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Profile Regression Suite" parallel="tests" thread-count="8">
+
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Profile Tests">
+        <classes>
+            <class name="tests.Test_MyProfilePage"/>
+        </classes>
+    </test>
+
+</suite>

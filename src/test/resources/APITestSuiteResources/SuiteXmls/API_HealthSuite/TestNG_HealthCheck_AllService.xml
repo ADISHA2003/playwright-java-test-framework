@@ -1,0 +1,12 @@
+<suite name="All Services API Health Suite" parallel="suites" thread-count="3">
+    <groups>
+        <run>
+            <include name="HealthCheck"/>
+        </run>
+    </groups>
+    <suite-files>
+        <suite-file path="TestNG_HealthCheck_AuthService.xml"/>
+        <suite-file path="TestNG_HealthCheck_ResearchService.xml"/>
+        <suite-file path="TestNG_HealthCheck_AuthService.xml"/>
+    </suite-files>
+</suite>

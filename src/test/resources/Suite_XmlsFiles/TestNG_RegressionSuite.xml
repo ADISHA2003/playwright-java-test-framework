@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="tests" thread-count="4">
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+    <test name="Test Bookmark on global search">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_GlobalSearch"/>
+        </classes>
+    </test>
+    <test name="Test Bookmark on Detail's page">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Detail_Page"/>
+        </classes>
+    </test>
+    <test name="Test Bookmark on ScreenerDt">
+        <classes>
+            <class name="tests.Bookmark.Test_Bookmark_From_Screener"/>
+        </classes>
+    </test>
+    <test name="Test Manage on ScreenerDt">
+        <classes>
+            <class name="tests.ScreenerDT.Test_Manage_Columns"/>
+        </classes>
+    </test>
+    <test name="Test Company screener">
+        <classes>
+            <class name="tests.TestCompanyScreener"/>
+        </classes>
+    </test>
+    <test name="Test Screener Multiselect filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_MultiSelect_Filters"/>
+        </classes>
+    </test>
+    <test name="Test screener Top Filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Top_Filters"/>
+        </classes>
+    </test>
+    <test name="Test Screener Location filter">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Location_Filter"/>
+        </classes>
+    </test>
+    <test name="Test Screener Sector filter">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Industry_Classification_Filter"/>
+        </classes>
+    </test>
+    <test name="Test Login Feature">
+        <classes>
+            <class name="tests.Test_Login"/>
+        </classes>
+    </test>
+    <test name="Test Screener Landing Page features">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Landing"/>
+        </classes>
+    </test>
+    <test name="Test Data Table Export Feature">
+        <classes>
+            <class name="tests.Test_Data_Table_Export"/>
+        </classes>
+    </test>
+    <test name="Test Entity Export Feature">
+        <classes>
+            <class name="tests.Test_Entity_Export"/>
+        </classes>
+    </test>
+    <test name="Test Left Navgation Overlay Feature">
+        <classes>
+            <class name="tests.Test_LeftNavOverlay"/>
+        </classes>
+    </test>
+    <test name="Test Screener Common Features of Filters Section">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Filters"/>
+        </classes>
+    </test>
+    <test name="Test Screener Common Features of View Result Section">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_ViewResults_Section"/>
+        </classes>
+    </test>
+    <test name="Test MyList">
+        <classes>
+            <class name="tests.Test_My_List"/>
+        </classes>
+    </test>
+    <test name="Test Keydevelopment Feature">
+        <classes>
+            <class name="tests.Test_KeyDev"/>
+        </classes>
+    </test>
+    <test name="Test My Profile Feature">
+        <classes>
+            <class name="tests.Test_MyProfilePage"/>
+        </classes>
+    </test>
+    <test name="Test Saved Criteria Feature">
+        <classes>
+            <class name="tests.Test_SavedFilters"/>
+        </classes>
+    </test>
+    <test name="Test Bulk Export Feature">
+        <classes>
+            <class name="tests.Test_Bulk_Export"/>
+        </classes>
+    </test>
+    <test name="Test Global Search Feature">
+        <classes>
+            <class name="tests.Test_GlobalSearch"/>
+        </classes>
+    </test>
+    <test name="Test Filter Applier and Verifier on Screener DT">
+        <classes>
+            <class name="tests.ScreenerDT.Test_Filters"/>
+        </classes>
+    </test>
+    <test name="Test Screener Graph filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Filter"/>
+        </classes>
+    </test>
+    <test name="Test Screener Graph year filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Year_Filters"/>
+        </classes>
+    </test>
+    <test name="Test Screener Graph financial filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Financial_Filter"/>
+        </classes>
+    </test>
+    <test name="Test Screener Graph financial growth filters">
+        <classes>
+            <class name="tests.ScreenerGenericTests.Test_Screener_Graph_Financial_Growth_Filter"/>
+        </classes>
+    </test>
+</suite>

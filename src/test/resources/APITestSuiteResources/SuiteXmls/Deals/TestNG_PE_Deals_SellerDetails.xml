@@ -1,0 +1,7 @@
+ <suite name="PE_Deals_SellerDetails">
+    <test name="PE_Deals_SellerDetails">
+        <classes>
+            <class name="APITestSuite.Deals.PE_Deals_SellerDetails_Test"/>
+        </classes>
+    </test>
+</suite>

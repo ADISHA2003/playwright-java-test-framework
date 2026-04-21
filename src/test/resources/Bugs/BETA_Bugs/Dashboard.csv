@@ -1,0 +1,47 @@
+Component,Bug
+key development,font size line height is different
+key products ,Borders and icon color is not same with figma
+key products pop box,box shadow is not same with figma
+key products pop box,line above the reset to default button should touch the left and right border of the container according to figma
+latest bookmarks,numbers should be in comma format.
+dashboard,tool tip design is not same figma 
+Saved filter,Incorrect pointer on hover on card
+Saved filter,Data point should be Company Screener instead of CompanyScreener in the card.
+Top comapanies,extra spacing between view more button and carousel.
+New companies ,extra spacing between view more button and carousel.
+Reports,Download icon color is different
+New companies ,Extra Suffix (company) Added to Data Point in card. Example Private Company
+top companies,Extra Suffix (company) Added to Data Point in card. Example Private Company
+Top companies,api is slow
+Graphs ,numbers should be in comma format.
+Graphs ,Open/Close Icon for Dropdown Not Updating According to State
+Graphs ,Dropdown Automatically Closes After Selecting a Value in Multi-Select
+Graphs ,Dropdown Selection Does Not Update to Show Chosen Option
+Graphs ,In the currency converter dropdown after selecting a currency the corresponding currency symbol is missing a suffix. For example, when selecting $, it should display as  $mn
+Deals,Clicking on the Deals card is sending an undefined value instead of the expected companyId in the API request.
+Graphs ,Dropdown is not same with figma.
+Graphs ,Dropdown label should be left aligned (as per figma)
+Graphs ,Legends are not as per figma (check Debt Trend graph)
+Graphs ,Active Investors - M&A -> Highlighted text subtitle: 'Deals for {investor name}'
+Graphs ,Active Investors - Private Equity -> Highlighted text subtitle: 'Deals for {investor name}'
+Graphs ,Investor League Tables -> Highlighted text subtitle: 'Deals for {investor name}'
+Analytics,Add more insights to your dashboard functionality is missing
+Insights->subheading,there should be some spacing after colon in Text Based on your role:Startup Founder
+Manage insight popup,Graph List Showing Undeveloped Graphs
+key development & deals,Based on your interest in sectors: shows Energy+23 if i select all sectors. Please show at least 3-4 sectors. Fix by width.
+Top companies,Data Points of Last Card Not Visible Despite Being Fetched from Backend
+Bookmarks,Double date is visible in the card.
+Site navigation,Site naviation design and greying out unavailable products
+key development,Truncate KD headline to 1 line max
+Welcome message,Name is static in welcome message
+reports,show latest reports. 
+logout ,logout is missing
+funding trend,funding trend graph is not developed
+Add more insights to your dashboard,button is not working
+notification,manage products -> click on save to dashboard-> notification color is different.
+key products,selected products are not visible.
+key development,company name should be highlighted.
+key development,more is missing after + {number}
+general,Add loader for all sections
+general,Add 0 state on graphs in case there is no data
+key development,One extra data point(false) is visible.

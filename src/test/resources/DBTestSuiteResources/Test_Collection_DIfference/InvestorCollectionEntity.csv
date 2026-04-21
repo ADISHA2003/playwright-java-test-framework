@@ -1,0 +1,7 @@
+type,sql_table,columnName,sql_condition,mongo_collection,condition,mongo_field,mongo_value,mongoId
+asset manager,company,companyid,"where mother_child_fund=""mother fund""",investor,ex,companyId,true,companyId
+fund,company,companyid,"where directoryfeature=298  and mother_child_fund =""child fund""",fund,ex,companyId,true,companyId
+Limited Partners,company,companyid,"where directoryfeature=298 and mother_child_fund=""mother fund"" and mother_child_fund =""child fund""",investor,eq,profile.directoryFeature,Limited Partner,companyId
+Incubators,company,companyid,"where directoryfeature=270 and mother_child_fund=""mother fund"" or mother_child_fund =""child fund""",investor,,profile.directoryFeature,Incubator,companyId
+family offices,company,companyid,"where directoryfeature=377 and mother_child_fund=""mother fund""",investor,eq,profile.directoryFeature,Family Office,companyId
+angel network,distinct(professional_id),professionalId,"where directoryfeature=435 and mother_child_fund=""mother fund""",professional,bool,angelFlag,true,professionalId

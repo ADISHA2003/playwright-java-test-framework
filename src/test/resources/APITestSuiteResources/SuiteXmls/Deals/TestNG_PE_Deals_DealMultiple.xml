@@ -1,0 +1,7 @@
+ <suite name="PE_Deals_DealMultiple">
+    <test name="PE_Deals_DealMultiple">
+        <classes>
+            <class name="APITestSuite.Deals.PE_Deals_DealMultiple_Test"/>
+        </classes>
+    </test>
+</suite>

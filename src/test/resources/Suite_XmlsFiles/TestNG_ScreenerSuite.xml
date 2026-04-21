@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="tests" thread-count="4">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+<test name="Test Screener Multiselect filters">
+    <classes>
+        <class name="tests.ScreenerGenericTests.Test_Screener_MultiSelect_Filters"/>
+    </classes>
+</test>
+    <test name="Test screener Top Filters">
+    <classes>
+        <class name="tests.ScreenerGenericTests.Test_Screener_Top_Filters"/>
+        </classes>
+    </test>
+    <test name="Test Screener Location filter">
+    <classes>
+        <class name="tests.ScreenerGenericTests.Test_Screener_Location_Filter"/>
+    </classes>
+    </test>
+    <test name="Test Screener Sector filter">
+    <classes>
+        <class name="tests.ScreenerGenericTests.Test_Screener_Industry_Classification_Filter"/>
+    </classes>
+    </test>
+</suite>

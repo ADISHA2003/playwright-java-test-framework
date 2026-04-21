@@ -1,0 +1,7 @@
+ <suite name=DashboardDealSplitVCGraph>
+    <test name=DashboardDealSplitVCGraph>
+        <classes>
+            <class name="APITestSuite.DashboardDealSplitVCGraph_Test"/>
+        </classes>
+    </test>
+</suite>

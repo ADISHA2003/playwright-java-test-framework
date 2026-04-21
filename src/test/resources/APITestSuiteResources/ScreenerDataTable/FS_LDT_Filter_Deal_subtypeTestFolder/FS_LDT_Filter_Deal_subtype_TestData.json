@@ -1,0 +1,23 @@
+{
+  "testCase200": {
+    "requests": [
+      {
+        "dataTableType": "INVESTORS",
+        "screenerRequest": {},
+        "dataTableRequest": {
+          "request": [],
+          "page": 0,
+          "size": 100,
+          "currencyType": "INR",
+          "numberScale": "CRORE",
+          "sortBy": "assetUnderManagement.amount",
+          "orderBy": "DESC"
+        }
+      }
+    ],
+    "filterData": {
+      "dataTableType": "DEALS",
+      "filterName": "dealSubtype"
+    }
+  }
+}

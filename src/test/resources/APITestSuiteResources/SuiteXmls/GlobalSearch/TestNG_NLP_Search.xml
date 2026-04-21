@@ -1,0 +1,7 @@
+ <suite name=NLP_Search>
+    <test name=NLP_Search>
+        <classes>
+            <class name="APITestSuite.GlobalSearch.NLP_Search_Test"/>
+        </classes>
+    </test>
+</suite>

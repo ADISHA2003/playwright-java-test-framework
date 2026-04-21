@@ -1,0 +1,2 @@
+type,sql_table,columnName,sql_condition,mongo_collection,condition,mongo_field,mongo_value,mongoId
+Limited Partners,company,companyid,where directoryfeature=298,investor,eq,profile.directoryFeature,Limited Partner,companyId
